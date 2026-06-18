@@ -55,8 +55,7 @@ body {
 }
 
 body.dark-mode {
-  background: url("assets/background/sonicbg-darkmode.png") no-repeat center center;
-  background-size: cover;
+  background: #0C0C0C;
 }
 
 /* MOBILE */
@@ -95,7 +94,8 @@ body::before {
 /* Dark mode background */
 
 body::after {
-  background-image: url("assets/background/sonicbg-darkmode.png");
+  background-image: url("assets/background/sonic-bg-new-alt2.png");
+  background-color: #0C0C0C;
   opacity: 0;
 }
 
@@ -138,14 +138,14 @@ body.dark-mode::before {
   display: inline-block;
   overflow: hidden;
   margin-top: 10px;
-  transform: translateX(45px);
-  mix-blend-mode: multiply;
+  align-items: center;
 }
 
 .logo {
   display: block;
-  height: clamp(130px, 16vw, 220px);
+  height: clamp(130px, 16vw, 200px);
   position: relative;
+  align-items: center;
   z-index: 1;
 }
 
@@ -173,37 +173,50 @@ body.dark-mode::before {
 @media (max-width: 1400px) {
 
   .top-area {
-    height: 34%;
-    padding-top: 20px;
-  }
-
-  .logo {
-    height: 170px;
-  }
-
-  .radio-layout {
-    gap: 35px;
-
-    padding-left: 35px;
-    padding-right: 35px;
-
-    transform: translateY(-10px);
-  }
-
-  /* PLAYLIST */
-
-  .playlist {
-    width: 300px;
-    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
   }
 
   /* PLAYER */
 
   .player {
-    width: 280px;
-    height: 400px;
+    position: relative;
 
-    padding: 18px;
+    width: var(--player-width);
+    height: var(--player-height);
+    padding: var(--player-padding);
+
+    gap: var(--player-gap);
+
+    background:
+      linear-gradient(to bottom,
+        rgba(255, 255, 255, .22),
+        rgba(255, 255, 255, .35));
+    border-top: 6px solid #0E8F30;
+    border-bottom: 6px solid #0C3CBD;
+    border-left: 6px solid #FBD200;
+    border-right: 6px solid #ff2a2a;
+    box-shadow:
+      0 14px 30px rgba(0, 0, 0, .14),
+      inset 0 1px 0 rgba(255, 255, 255, .65);
+    border-radius: 25px;
+
+    text-align: center;
+    color: #000000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition:
+      width 0.45s cubic-bezier(.22, .9, .35, 1),
+      height 0.45s cubic-bezier(.22, .9, .35, 1),
+      padding 0.45s cubic-bezier(.22, .9, .35, 1),
+      gap 0.45s cubic-bezier(.22, .9, .35, 1),
+      transform 0.4s ease;
+    overflow: hidden;
   }
 
   .player-cover {
@@ -228,6 +241,113 @@ body.dark-mode::before {
 
   .player.horizontal .track-title {
     font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 1920px) {
+
+  .top-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  /* PLAYER */
+
+  .player {
+    position: relative;
+
+    width: var(--player-width);
+    height: var(--player-height);
+    padding: var(--player-padding);
+
+    gap: var(--player-gap);
+
+    background:
+      linear-gradient(to bottom,
+        rgba(255, 255, 255, .22),
+        rgba(255, 255, 255, .35));
+    border-top: 6px solid #0E8F30;
+    border-bottom: 6px solid #0C3CBD;
+    border-left: 6px solid #FBD200;
+    border-right: 6px solid #ff2a2a;
+    box-shadow:
+      0 14px 30px rgba(0, 0, 0, .14),
+      inset 0 1px 0 rgba(255, 255, 255, .65);
+    border-radius: 25px;
+
+    text-align: center;
+    color: #000000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition:
+      width 0.45s cubic-bezier(.22, .9, .35, 1),
+      height 0.45s cubic-bezier(.22, .9, .35, 1),
+      padding 0.45s cubic-bezier(.22, .9, .35, 1),
+      gap 0.45s cubic-bezier(.22, .9, .35, 1),
+      transform 0.4s ease;
+    overflow: hidden;
+  }
+
+  .player::before {
+    content: "";
+    position: absolute;
+    inset: 8px;
+
+    border-radius: 18px;
+    border: 2px solid rgba(255, 255, 255, .45);
+
+    pointer-events: none;
+  }
+
+  .player>* {
+    isolation: isolate;
+  }
+
+  .player-cover {
+    width: var(--cover-size);
+    height: var(--cover-size);
+
+    object-fit: cover;
+
+    border-radius: 20px;
+    box-shadow:
+      0 10px 20px rgba(0, 0, 0, .12);
+
+    transition:
+      opacity 0.35s ease,
+      transform 0.35s ease,
+      width 0.45s cubic-bezier(.22, .9, .35, 1),
+      height 0.45s cubic-bezier(.22, .9, .35, 1),
+      box-shadow 0.3s ease;
+
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  /* estado durante troca */
+  .player-cover.changing {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+
+  .player-column {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: clamp(30px, 4vw, 30px);
+  }
+
+  .player-column.horizontal-layout {
+    width: fit-content;
+  }
+
+  .hidden-horizontal {
+    display: none !important;
   }
 }
 
@@ -1078,7 +1198,6 @@ body.dark-mode::before {
     gap 0.45s cubic-bezier(.22, .9, .35, 1),
     transform 0.4s ease;
   overflow: hidden;
-  mix-blend-mode: multiply;
 }
 
 .player::before {
@@ -1131,7 +1250,8 @@ body.dark-mode::before {
 }
 
 .player-column.horizontal-layout {
-  width: fit-content;
+  width: max-content;
+  flex-shrink: 0;
 }
 
 .hidden-horizontal {
@@ -1254,6 +1374,11 @@ body.dark-mode::before {
   pointer-events: none;
 }
 
+.player,
+.player.horizontal {
+  flex-shrink: 0;
+}
+
 /* ===================== */
 /* HORIZONTAL TYPOGRAPHY */
 /* ===================== */
@@ -1301,6 +1426,12 @@ body.dark-mode::before {
 .progress-container,
 #volumeSlider {
   transition: all 0.4s ease;
+}
+
+.player-info,
+.metadata,
+.track-info {
+  min-width: 0;
 }
 
 /* ===================== */
@@ -2671,7 +2802,7 @@ body.dark-mode::before {
 }
 
 .settings-button i {
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 18px;
 }
 
@@ -2744,7 +2875,7 @@ body.dark-mode::before {
     sans-serif;
   color: black;
   text-shadow:
-    1px 1px 0 rgba(255, 255, 255, .7);
+    1px 1px 0 rgba(0, 0, 0, 0.7);
 }
 
 .settings-panel.horizontal-mode {
@@ -2882,12 +3013,12 @@ body.dark-mode::before {
 /* ===================== */
 
 .credit {
-  color: rgba(255, 255, 255, 0.4);
+  color: rgb(0, 0, 0);
   font-size: 12px;
   font-style: italic;
   font-family: "Syntax Ultra Black", sans-serif;
   margin-right: -10px;
   text-shadow:
-    2px 2px 6px rgba(0, 0, 0, 0.85),
-    0 0 10px rgba(0, 170, 255, 0.25);
+    1px 1px 3px rgba(0, 0, 0, 0.85),
+    1px 1px 3px rgb(255, 255, 255);
 }
