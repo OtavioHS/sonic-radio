@@ -1438,48 +1438,7 @@ function prevTrack() {
     return;
   }
 
-  const activeTracks = getActiveTracks();
-
-  if (activeTracks.length === 0) return;
-
-  let targetIndex;
-
-  if (isRandom) {
-
-    let randomIndex;
-
-    do {
-      randomIndex = Math.floor(
-        Math.random() * activeTracks.length
-      );
-    } while (
-      activeTracks[randomIndex] === tracks[currentIndex] &&
-      activeTracks.length > 1
-    );
-
-    targetIndex =
-      tracks.indexOf(
-        activeTracks[randomIndex]
-      );
-
-  } else {
-
-    targetIndex = currentIndex;
-
-    do {
-      targetIndex--;
-
-      if (targetIndex < 0) {
-        targetIndex = tracks.length - 1;
-      }
-
-    } while (
-      tracks[targetIndex].classList.contains("excluded")
-    );
-
-  }
-
-  switchTrack(targetIndex);
+  audio.currentTime = 0;
 }
 
 nextBtn.addEventListener(
