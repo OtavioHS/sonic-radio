@@ -10,8 +10,13 @@
 
   --cover-size: 200px;
 
+  /* PLAYLIST */
+  --playlist-width: clamp(320px, 22vw, 370px);
+  --playlist-min-width: relative;
+
   /* PLAYER HORIZONTAL */
 
+  --player-horizontal-min-width: relative;
   --player-horizontal-width: 800px;
 
   --player-horizontal-padding: 25px;
@@ -466,7 +471,7 @@ body.dark-mode::before {
 
   .player,
   .player.horizontal {
-    width: min(92vw, 520px);
+    width: relative;
     height: auto;
 
     flex-direction: column;
@@ -477,7 +482,7 @@ body.dark-mode::before {
 
   .player.horizontal .player-content,
   .player.horizontal .player-right {
-    width: 100%;
+    width: relative;
     align-items: center;
     text-align: center;
   }
@@ -488,7 +493,7 @@ body.dark-mode::before {
 
   .player-cover,
   .player.horizontal .player-cover {
-    width: 200px;
+    width: relative;
     height: 200px;
   }
 
@@ -500,7 +505,7 @@ body.dark-mode::before {
   /* PLAYLIST */
 
   .playlist {
-    width: min(92vw, 520px);
+    width: relative;
     max-height: 360px;
   }
 }
@@ -539,7 +544,7 @@ body.dark-mode::before {
 
   .player,
   .player.horizontal {
-    width: 100%;
+    width: relative;
     max-width: 360px;
 
     padding: 16px;
@@ -548,7 +553,7 @@ body.dark-mode::before {
 
   .player-cover,
   .player.horizontal .player-cover {
-    width: 170px;
+    width: relative;
     height: 170px;
 
     border-radius: 16px;
@@ -571,7 +576,7 @@ body.dark-mode::before {
   }
 
   .controls button {
-    width: 44px;
+    width: relative;
     height: 44px;
     font-size: 16px;
   }
@@ -579,7 +584,7 @@ body.dark-mode::before {
   /* PLAYLIST */
 
   .playlist {
-    width: 100%;
+    width: relative;
     max-width: 360px;
 
     max-height: 340px;
@@ -606,14 +611,14 @@ body.dark-mode::before {
 
   .player,
   .player.horizontal {
-    max-width: 320px;
+    max-width: relative;
 
     padding: 14px;
   }
 
   .player-cover,
   .player.horizontal .player-cover {
-    width: 150px;
+    width: relative;
     height: 150px;
   }
 
@@ -622,14 +627,14 @@ body.dark-mode::before {
   }
 
   .controls button {
-    width: 40px;
+    width: relative;
     height: 40px;
 
     font-size: 14px;
   }
 
   .playlist {
-    max-width: 320px;
+    max-width: relative;
     max-height: 300px;
   }
 
@@ -655,7 +660,8 @@ body.dark-mode::before {
 /* ===================== */
 
 .playlist {
-  width: clamp(320px, 22vw, 370px);
+  width: var(--playlist-width);
+  min-width: var(--playlist-min-width);
 
   max-height: 440px;
   /* 10px maior que o player */
@@ -1055,7 +1061,8 @@ body.dark-mode::before {
 
 .track-title.scrolling::after {
   content: attr(data-title);
-  padding-left: 80px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 @keyframes marquee {
@@ -1248,7 +1255,7 @@ body.dark-mode::before {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: clamp(30px, 4vw, 30px);
+  gap: clamp(20px, 4vw, 30px);
 }
 
 .player-column.horizontal-layout {
@@ -1282,6 +1289,7 @@ body.dark-mode::before {
   justify-content: space-between;
 
   width: var(--player-horizontal-width);
+  min-width: var(--player-horizontal-min-width);
   height: 265px;
 
   border-radius: 30px;
