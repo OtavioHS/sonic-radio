@@ -2605,7 +2605,8 @@ body.dark-mode::before {
       rgba(122, 63, 24, .55) 75%),
     linear-gradient(to bottom,
       rgba(255, 255, 255, .08),
-      rgba(0, 0, 0, .12));
+      rgba(0, 0, 0, .12)),
+    url("assets/patterns/greenhillgens1-tile.gif");
 
   background-size: cover;
   background-repeat: no-repeat;
