@@ -2,22 +2,22 @@
 
   /* PLAYER NORMAL */
 
-  --player-width: 300px;
-  --player-height: 430px;
+  --player-width: clamp(250px, 22vw, 300px);
+  --player-height: clamp(380px, 32vw, 430px);
 
   --player-padding: 20px;
   --player-gap: 5px;
 
-  --cover-size: 200px;
+  --cover-size: clamp(175px, 15vw, 200px);
 
   /* PLAYER HORIZONTAL */
 
-  --player-horizontal-width: 800px;
+  --player-horizontal-width: min(800px, 100%);
 
   --player-horizontal-padding: 25px;
   --player-horizontal-gap: 30px;
 
-  --cover-horizontal-size: 275px;
+  --cover-horizontal-size: clamp(200px, 18vw, 275px);
 
 }
 
@@ -115,10 +115,15 @@ body.dark-mode::before {
 
 .app {
   min-height: 100vh;
+
   display: flex;
   flex-direction: column;
+  align-items: center;
+
   padding: clamp(20px, 3vw, 40px);
+
   box-sizing: border-box;
+
   gap: clamp(20px, 2vw, 35px);
 }
 /* ===================== */
@@ -132,12 +137,16 @@ body.dark-mode::before {
   flex-shrink: 0;
 }
 
+.bottom-area {
+  display: flex;
+  justify-content: center;
+}
+
 .logo-wrapper {
   position: relative;
   display: inline-block;
   overflow: hidden;
   margin-top: 10px;
-  transform: translateX(45px);
   mix-blend-mode: multiply;
 }
 
@@ -148,159 +157,34 @@ body.dark-mode::before {
   z-index: 1;
 }
 
+.top-area,
+.bottom-area {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 /* ===================== */
 /*        (RÁDIO)        */
 /* ===================== */
-
 .radio-layout {
-  flex: 1;
-
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
 
-  gap: clamp(30px, 4vw, 30px);
+  gap: clamp(20px, 3vw, 30px);
 
   width: 100%;
+  max-width: 1600px;
+
   padding-top: clamp(40px, 5vh, 90px);
 }
 
-/* ===================== */
-/* NOTEBOOK LAYOUT       */
-/* ===================== */
-
-@media (max-width: 1400px) {
-
-  .top-area {
-    height: 34%;
-    padding-top: 20px;
-  }
-
-  .logo {
-    height: 170px;
-  }
-
-  .radio-layout {
-    gap: 35px;
-
-    padding-left: 35px;
-    padding-right: 35px;
-
-    transform: translateY(-10px);
-  }
-
-  /* PLAYLIST */
-
-  .playlist {
-    width: 300px;
-    max-height: 400px;
-  }
-
-  /* PLAYER */
-
-  .player {
-    width: 280px;
-    height: 400px;
-
-    padding: 18px;
-  }
-
-  .player-cover {
-    width: 190px;
-    height: 190px;
-  }
-
-  /* HORIZONTAL */
-
-  .player.horizontal {
-    width: min(720px, 100%);
-    min-height: 320px;
-
-    padding: 20px 24px;
-    gap: 24px;
-  }
-
-  .player.horizontal .player-cover {
-    width: 230px;
-    height: 230px;
-  }
-
-  .player.horizontal .track-title {
-    font-size: 2.2rem;
-  }
-}
-
-/* ===================== */
-/* SMALL NOTEBOOK        */
-/* ===================== */
-
 @media (max-width: 1100px) {
-
-  .top-area {
-    height: 30%;
-    padding-top: 15px;
-  }
-
-  .logo {
-    height: 145px;
-  }
-
-  .radio-layout {
-    gap: 24px;
-
-    padding-left: 20px;
-    padding-right: 20px;
-
-    transform: none;
-  }
-
-  /* PLAYLIST */
-
-  .playlist {
-    width: 260px;
-    max-height: 380px;
-  }
-
-  /* PLAYER */
-
-  .player {
-    width: 250px;
-    height: 380px;
-
-    padding: 16px;
-  }
-
-  .player-cover {
-    width: 175px;
-    height: 175px;
-  }
-
-  /* HORIZONTAL */
-
-  .player.horizontal {
-    width: min(620px, 100%);
-    min-height: 300px;
-
-    gap: 20px;
-    padding: 18px 20px;
-  }
-
-  .player.horizontal .player-cover {
-    width: 200px;
-    height: 200px;
-  }
-
-  .player.horizontal .track-title {
-    font-size: 1.8rem;
-  }
-
-  .player.horizontal .controls {
-    gap: 12px;
-  }
-
-  .player.horizontal .controls button {
-    width: 46px;
-    height: 46px;
+  .player-column {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -534,9 +418,8 @@ body.dark-mode::before {
 /* ===================== */
 
 .playlist {
-  width: clamp(320px, 22vw, 370px);
-
-  max-height: 440px;
+  width: clamp(280px, 22vw, 370px);
+  max-height: clamp(320px, 42vh, 440px);
   /* 10px maior que o player */
   height: auto;
 
@@ -576,15 +459,13 @@ body.dark-mode::before {
 /* ===================== */
 
 .info-box {
-  flex: 0 0 clamp(260px, 18vw, 380px);
-  max-width: clamp(260px, 18vw, 380px);
+  width: clamp(240px, 18vw, 380px);
+  flex-shrink: 0;
 
   background:
-    linear-gradient(
-      to bottom,
+    linear-gradient(to bottom,
       rgba(252, 252, 252, 0.212),
-      rgba(235, 235, 235, 0.082)
-    );
+      rgba(235, 235, 235, 0.082));
 
   border-top: 4px solid #15A73A;
   border-left: 4px solid #FFD400;
@@ -594,8 +475,8 @@ body.dark-mode::before {
   border-radius: 14px;
 
   box-shadow:
-    0 14px 30px rgba(0,0,0,.16),
-    0 4px 8px rgba(0,0,0,.08);
+    0 14px 30px rgba(0, 0, 0, .16),
+    0 4px 8px rgba(0, 0, 0, .08);
 
   display: flex;
   flex-direction: column;
@@ -610,8 +491,7 @@ body.dark-mode::before {
   transition:
     opacity .4s ease,
     max-height .4s ease,
-    max-width .4s ease,
-    flex-basis .4s ease;
+    width .4s ease;
 }
 
 #infoText {
@@ -654,7 +534,7 @@ body.dark-mode::before {
   color: #1c1c1c;
 
   font-family:
-    "Syntax Ultra BlackS",
+    "Syntax Ultra Black",
     sans-serif;
 
   overflow-y: auto;
@@ -697,8 +577,7 @@ body.dark-mode::before {
 }
 
 .info-box.trivia.horizontal-layout {
-  width: 100%;
-  max-width: 800px;
+  width: min(800px, 100%);
 
   height: 140px;
   max-height: 140px;
@@ -710,8 +589,7 @@ body.dark-mode::before {
 /* LYRICS BOX            */
 /* ===================== */
 .info-box.lyrics {
-  flex: 0 0 350px;
-  max-width: 380px;
+  width: clamp(280px, 22vw, 380px);
 }
 
 .info-box.lyrics .info-header {
@@ -817,18 +695,18 @@ body.dark-mode::before {
 }
 
 .collection-title {
-  font-size: 15px;
+  font-size: clamp(13px, 1vw, 15px);
   margin-bottom: 6px;
 }
 
 .disc-title {
-  font-size: 14px;
+  font-size: clamp(12px, 0.95vw, 14px);
   margin: 6px 0;
   opacity: 0.9;
 }
 
 .game-title {
-  font-size: 13px;
+  font-size: clamp(11px, 0.9vw, 13px);
   margin: 4px 0;
   opacity: 0.85;
 }
@@ -857,7 +735,7 @@ body.dark-mode::before {
 .tracks.open,
 .subtracks.open {
   overflow: visible;
-  max-height: none;
+  max-height: 2000px;
   opacity: 1;
   transform: translateY(0);
 }
@@ -874,7 +752,7 @@ body.dark-mode::before {
   font-weight: normal;
   letter-spacing: 0.5px;
 
-  font-size: 12px;
+  font-size: clamp(10px, 0.8vw, 12px);
   color: #1a1a1a;
 
   cursor: pointer;
@@ -905,7 +783,7 @@ body.dark-mode::before {
 }
 
 #trackTitle {
-  font-size: 18px;
+  font-size: clamp(15px, 1.3vw, 18px);
   font-family: "Syntax Ultra Black", sans-serif;
 
   color: #0C3CBD;
@@ -991,8 +869,8 @@ body.dark-mode::before {
 
 /* Botão toggle (+ / −) */
 .toggle-btn {
-  width: 18px;
-  height: 18px;
+  width: clamp(16px, 1.2vw, 18px);
+  height: clamp(16px, 1.2vw, 18px);
   border-radius: 50%;
   border: none;
   font-size: 13px;
@@ -1023,7 +901,7 @@ body.dark-mode::before {
 
 .game-toggle-btn {
   position: absolute;
-  right: 14px;
+  right: clamp(8px, 1vw, 14px);
   top: 50%;
   transform: translateY(-50%);
   font-size: 20px;
@@ -1042,6 +920,11 @@ body.dark-mode::before {
   overflow: hidden;
 }
 
+#trackGame,
+#trackComposer {
+  max-width: 100%;
+}
+
 /* ===================== */
 /* PLAYER                */
 /* ===================== */
@@ -1049,9 +932,10 @@ body.dark-mode::before {
 .player {
   position: relative;
 
-  width: var(--player-width);
+  width: min(var(--player-width), 100%);
   height: var(--player-height);
   padding: var(--player-padding);
+  box-sizing: border-box;
 
   gap: var(--player-gap);
 
@@ -1131,12 +1015,20 @@ background:
 .player-column {
   display: flex;
   flex-direction: row;
+
   align-items: flex-start;
-  gap: clamp(30px, 4vw, 30px);
+  justify-content: center;
+
+  gap: clamp(18px, 3vw, 30px);
 }
 
 .player-column.horizontal-layout {
   width: fit-content;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
 }
 
 .hidden-horizontal {
@@ -1165,7 +1057,8 @@ background:
   justify-content: space-between;
 
   width: var(--player-horizontal-width);
-  height: 265px;
+  min-height: 265px;
+  height: auto;
 
   border-radius: 30px;
   padding: var(--player-horizontal-padding);
@@ -1186,7 +1079,8 @@ background:
 
 /* conteúdo à esquerda */
 .player.horizontal .player-content {
-  width: 60%;
+  flex: 1;
+  min-width: 0;
   align-items: flex-start;
   text-align: left;
   gap: 10px;
@@ -1262,7 +1156,7 @@ background:
 /* ===================== */
 
 .player.horizontal .track-title {
-  font-size: 3.8rem;
+  font-size: clamp(1.8rem, 4vw, 3.8rem);
   line-height: 1;
 
   font-family:
@@ -1303,7 +1197,11 @@ text-shadow:
 .controls,
 .progress-container,
 #volumeSlider {
-  transition: all 0.4s ease;
+  transition:
+    width .4s ease,
+    height .4s ease,
+    transform .4s ease,
+    opacity .4s ease;
 }
 
 /* ===================== */
