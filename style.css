@@ -1678,6 +1678,7 @@ body.dark-mode::before {
 /* progress bar */
 
 .progress.super-sonic {
+  transition: background 0.4s ease, box-shadow 0.4s ease;
   background: linear-gradient(90deg,
       #fff799,
       #ffe600,
@@ -1745,8 +1746,7 @@ body.dark-mode::before {
 
 .player.super-sonic-mode {
   animation: superGlow 2.5s ease-in-out infinite;
-  animation: superPulse 1.8s ease-in-out infinite;
-  transition: background 0.4s ease, box-shadow 0.4s ease;
+  animation: superPulse 1.8s ease-in-out infinite
 }
 
 /* ===================== */
