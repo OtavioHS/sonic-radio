@@ -2612,16 +2612,6 @@ body.dark-mode::before {
   background-repeat: no-repeat;
   background-position: center;
 
-  background-size:
-    32px 32px,
-    32px 32px,
-    100% 100%;
-
-  background-position:
-    0 0,
-    16px 16px,
-    0 0;
-
   mix-blend-mode: multiply;
   opacity: .9;
 
