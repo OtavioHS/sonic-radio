@@ -2569,89 +2569,24 @@ body.dark-mode::before {
 }
 
 .player.greenhillgens1-mode {
-  position: relative;
-  overflow: hidden;
 
-  background: #9a59244f,
-    url("assets/patterns/greenhillgens1-tile.gif");
+  background-color: #1a1a1a;
 
-  border-top: 6px solid #28b44b;
-  border-bottom: 6px solid #28b44b;
-  border-left: 6px solid #28b44b;
-  border-right: 6px solid #28b44b;
-  mix-blend-mode: multiply;
-
-  box-shadow:
-    0 0 12px rgba(40, 180, 75, .18),
-    0 0 20px rgba(154, 90, 36, .14),
-    0 14px 30px rgba(0, 0, 0, .18);
-}
-
-.player.greenhill-mode::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-
-  background-image:
-    linear-gradient(45deg,
-      rgba(122, 63, 24, .55) 25%,
-      transparent 25%,
-      transparent 75%,
-      rgba(122, 63, 24, .55) 75%),
-    linear-gradient(45deg,
-      rgba(122, 63, 24, .55) 25%,
-      transparent 25%,
-      transparent 75%,
-      rgba(122, 63, 24, .55) 75%),
-    linear-gradient(to bottom,
-      rgba(255, 255, 255, .08),
-      rgba(0, 0, 0, .12)),
+  background:
+    linear-gradient(rgba(12, 12, 12, .82),
+      rgba(12, 12, 12, .82)),
     url("assets/patterns/greenhillgens1-tile.gif");
 
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
-  mix-blend-mode: multiply;
-  opacity: .9;
+  border: 3px solid #d68b3a;
 
-  pointer-events: none;
-  z-index: 0;
-}
+  box-shadow:
+    0 0 10px rgba(255, 140, 50, 0.55),
+    0 0 28px rgba(255, 140, 50, 0.20);
 
-.player.greenhillgens1-mode>* {
-  position: relative;
-  z-index: 1;
-  isolation: isolate;
-}
-
-.player.greenhillgens1-mode #trackTitle {
-  color: #28b44b;
-
-  text-shadow:
-    2px 2px 0 rgba(80, 40, 0, .65),
-    0 0 8px rgba(255, 232, 107, .25);
-}
-
-.player.greenhillgens1-mode #trackGame {
-  color: #ffffff;
-
-  text-shadow:
-    1px 1px 2px rgba(20, 50, 90, .45);
-}
-
-.player.greenhillgens1-mode #trackComposer {
-  color: #8cff88;
-
-  text-shadow:
-    1px 1px 2px rgba(20, 70, 20, .35);
-}
-
-.player.greenhillgens1-mode #timeDisplay {
-  color: white;
-
-  text-shadow:
-    1px 1px 2px rgba(0, 0, 0, .45);
 }
 
 .player.greenhillgens2-mode {
