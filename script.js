@@ -57,6 +57,28 @@ const triviaMap = {
     Flashdance and Dirty Dancing!
   `,
   "Sonic the Hedgehog (1991)|Marble Zone": `
+  Originally, Marble Zone had UFOs
+  <br>
+  casually floating in the sky, but
+  <br>
+  were ultimately dropped in the final
+  <br>
+  game.
+  <br>
+  <br>
+  However, accessing the Debug Mode in
+  <br>
+  the 2013 / Origins remaster allows
+  <br>
+  them to be reactivated!
+
+  <div class="marble-ufos">
+    <img src="assets/background/marble-ufo.gif">
+    <img src="assets/background/marble-ufo.gif">
+    <img src="assets/background/marble-ufo.gif">
+  </div>
+`,
+  "Sonic the Hedgehog (2013)|Marble Zone (Remastered)": `
     Originally, Marble Zone had UFOs
     <br>
     casually floating in the sky, but
@@ -68,9 +90,15 @@ const triviaMap = {
     <br>
     However, accessing the Debug Mode in
     <br>
-    the 2013 / Origins remaster allow them
+    the 2013 / Origins remaster allows
     <br>
-    to be reactivated!
+    them to be reactivated!
+
+  <div class="marble-ufos">
+    <img src="assets/background/marble-ufo.gif">
+    <img src="assets/background/marble-ufo.gif">
+    <img src="assets/background/marble-ufo.gif">
+  </div>
   `,
 
   //SONIC 2//
@@ -366,6 +394,43 @@ function saveSettings() {
   }));
 }
 
+function updateLogo() {
+
+  const lightLogo =
+    document.querySelector(".logo-light");
+
+  const darkLogo =
+    document.querySelector(".logo-dark");
+
+  const isDark =
+    document.body.classList.contains("dark-mode");
+
+  const currentLogo =
+    isDark ? lightLogo : darkLogo;
+
+  const nextLogo =
+    isDark ? darkLogo : lightLogo;
+
+  currentLogo.classList.add("fade-out");
+
+  setTimeout(() => {
+
+    currentLogo.style.display = "none";
+
+    nextLogo.style.display = "block";
+
+    nextLogo.style.opacity = "0";
+
+    requestAnimationFrame(() => {
+      nextLogo.style.opacity = "1";
+    });
+
+    currentLogo.classList.remove("fade-out");
+
+  }, 200);
+
+}
+
 // Info scroll
 function startInfoScroll() {
 
@@ -447,8 +512,16 @@ function loadSettings() {
   }
 
   if (settings.darkMode) {
+
     document.body.classList.add("dark-mode");
-    if (darkModeToggle) darkModeToggle.checked = true;
+
+    if (darkModeToggle) {
+      darkModeToggle.checked = true;
+    }
+
+    document.querySelector(".logo-light").style.display = "none";
+    document.querySelector(".logo-dark").style.display = "block";
+
   }
 
   if (settings.horizontalLayout) {
@@ -1210,6 +1283,26 @@ function loadTrack(index) {
     ?.classList.remove("active");
 
   selected.classList.add("active");
+
+  document
+    .querySelectorAll(".disc")
+    .forEach(disc =>
+      disc.classList.remove("active-disc")
+    );
+
+  selected
+    .closest(".disc")
+    ?.classList.add("active-disc");
+
+  document
+    .querySelectorAll(".game")
+    .forEach(game =>
+      game.classList.remove("active-game")
+    );
+
+  selected
+    .closest(".game")
+    ?.classList.add("active-game");
 }
 
 // ================================
@@ -2545,12 +2638,16 @@ if (darkModeToggle) {
   darkModeToggle.addEventListener(
     "change",
     () => {
+
       document.body.classList.toggle(
         "dark-mode",
         darkModeToggle.checked
       );
 
+      updateLogo();
+
       saveSettings();
+
     }
   );
 }
