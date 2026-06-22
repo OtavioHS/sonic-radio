@@ -730,10 +730,10 @@ body.dark-mode .playlist {
       rgba(22, 28, 48, .95),
       rgba(14, 18, 34, .95));
 
-  border-top: 6px solid #22C55E;
-  border-bottom: 6px solid #4F7CFF;
-  border-left: 6px solid #FFD84D;
-  border-right: 6px solid #FF5A5A;
+  border-top: 6px solid #FFC247;
+  border-bottom: 6px solid #FFC247;
+  border-left: 6px solid #5D00FF;
+  border-right: 6px solid #5D00FF;
 
   box-shadow:
     0 18px 40px rgba(0, 0, 0, .45),
@@ -998,10 +998,10 @@ body.dark-mode .lyric-line {
 
 body.dark-mode .lyric-line.active {
 
-  color: #6FA8FF;
-
+  color: #FFB200;
+  opacity: 1;
   text-shadow:
-    0 0 10px rgba(111, 168, 255, .4);
+    0 0 10px #ffdc8a;
 
 }
 
@@ -1826,9 +1826,9 @@ body.dark-mode .subgame-title:hover {
 /* HORIZONTAL TYPOGRAPHY */
 /* ===================== */
 
-.player.horizontal .track-title {
-  font-size: relative;
-  line-height: 1;
+.player.horizontal #trackTitle {
+  font-size: clamp(10px, 2vw, 25px);
+  line-height: 2.5;
 
   font-family:
     "Syntax Ultra Black",
@@ -1845,6 +1845,11 @@ body.dark-mode .subgame-title:hover {
   text-shadow:
     1px 1px 0 rgba(255, 255, 255, .85),
     0 4px 8px rgba(20, 80, 224, .18);
+}
+
+.player.horizontal .track-title {
+  display: inline-flex;
+  align-items: center;
 }
 
 .player.horizontal #trackGame {
@@ -1894,10 +1899,15 @@ body.dark-mode .player {
     0 18px 40px rgba(0, 0, 0, .55),
     inset 0 1px 0 rgba(255, 255, 255, .05);
 
-  border-top-color: #34D16F;
-  border-left-color: #FFD84A;
-  border-right-color: #FF5B5B;
-  border-bottom-color: #4E7DFF;
+  border: 6px solid transparent;
+
+  background:
+    linear-gradient(#151530, #151530) padding-box,
+    linear-gradient(135deg,
+      #6A00FF,
+      #D100D1,
+      #FF5FA2,
+      #FFC247) border-box;
 }
 
 body.dark-mode .player::before {
@@ -1919,7 +1929,7 @@ body.dark-mode .player.horizontal .player-cover {
 }
 
 body.dark-mode #trackTitle,
-body.dark-mode .player.horizontal .track-title {
+body.dark-mode .player.horizontal #trackTitle {
 
   color: #8DB3FF;
 
@@ -1931,7 +1941,7 @@ body.dark-mode #trackGame,
 body.dark-mode .player.horizontal #trackGame {
 
   color:
-    rgba(255, 120, 120, .95);
+    #FFB200;
 
   text-shadow: none;
 }
@@ -3377,36 +3387,75 @@ body.dark-mode .player.greenhillgens2-mode {
 }
 
 .controls button {
+
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+
   border: none;
+
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
   font-style: italic;
   font-size: 18px;
-  font-family: "Syntax Ultra Black", sans-serif;
-  text-shadow:
-    2px 2px 6px rgba(0, 0, 0, 0.85),
-    0 0 10px rgba(0, 170, 255, 0.25);
+
+  font-family:
+    "Syntax Ultra Black",
+    sans-serif;
+
   letter-spacing: 0.5px;
-  background: linear-gradient(145deg, #1e3c72, #2a5298);
+
+  text-shadow:
+    2px 2px 5px rgba(0, 0, 0, .45);
+
+  background:
+    linear-gradient(to bottom,
+      #1450E0,
+      #0C3CBD);
+
   color: white;
-  cursor: pointer;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+
+  border-top: 3px solid #0E8F30;
+  border-bottom: 3px solid #0C3CBD;
+  border-left: 3px solid #FBD200;
+  border-right: 3px solid #ff2a2a;
+
+  box-shadow:
+    0 6px 16px rgba(0, 0, 0, .28);
+
   transition:
     transform .2s ease,
-    box-shadow .3s ease,
-    background .3s ease;
+    box-shadow .25s ease,
+    background .25s ease;
+
 }
 
 .controls button:hover {
-  transform: scale(1.1);
+
+  transform: scale(1.08);
+
+  box-shadow:
+    0 10px 20px rgba(0, 0, 0, .35),
+    0 0 10px rgba(20, 80, 224, .25);
+
 }
 
 .controls button:active {
-  transform: scale(0.95);
+
+  transform: scale(.94);
+
 }
 
 body.dark-mode .controls button {
+  border-top: 3px solid #FFC247;
+  border-bottom: 3px solid #FFC247;
+  border-left: 3px solid #5D00FF;
+  border-right: 3px solid #5D00FF;
 
   background:
     linear-gradient(145deg,
@@ -3636,6 +3685,10 @@ body.dark-mode .settings-button i {
 body.dark-mode .settings-panel {
 
   mix-blend-mode: normal;
+  border-top: 4px solid #FFC247;
+  border-bottom: 4px solid #FFC247;
+  border-left: 4px solid #5D00FF;
+  border-right: 4px solid #5D00FF;
 
   background:
     linear-gradient(to bottom,
@@ -3654,6 +3707,142 @@ body.dark-mode .settings-option {
   color: #E6ECFF;
 
   text-shadow: none;
+}
+
+/* ===================== */
+/* TIER LIST BUTTON      */
+/* ===================== */
+
+.tierlist-link {
+
+  position: fixed;
+
+  top: 20px;
+  right: 40px;
+
+  z-index: 9999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  min-width: 100px;
+  height: 40px;
+
+  padding: 0 18px;
+
+  text-decoration: none;
+
+  background:
+    linear-gradient(to bottom,
+      rgba(255, 255, 255, .94),
+      rgba(230, 230, 230, .94));
+
+  backdrop-filter: blur(10px);
+
+  color: #111;
+
+  font-family:
+    "Syntax Ultra Black",
+    sans-serif;
+
+  font-style: italic;
+  font-size: 14px;
+  letter-spacing: .5px;
+
+  border-top: 3px solid #0E8F30;
+  border-bottom: 3px solid #0C3CBD;
+  border-left: 3px solid #FBD200;
+  border-right: 3px solid #ff2a2a;
+
+  border-radius: 14px;
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, .18),
+    0 4px 8px rgba(0, 0, 0, .08);
+
+  transition:
+    transform .25s ease,
+    box-shadow .25s ease,
+    background .25s ease;
+
+}
+
+.tierlist-link::after {
+
+  content: "▶";
+
+  font-size: 17px;
+
+  color: #1450E0;
+
+  transition:
+    transform .25s ease;
+
+}
+
+.tierlist-link:hover {
+
+  transform:
+    translateY(-2px) scale(1.02);
+
+  background:
+    linear-gradient(to bottom,
+      rgba(255, 255, 255, 1),
+      rgba(245, 245, 245, 1));
+
+  box-shadow:
+    0 12px 24px rgba(0, 0, 0, .22),
+    0 0 14px rgba(20, 80, 224, .18);
+
+}
+
+.tierlist-link:hover::after {
+
+  transform:
+    translateX(3px);
+
+}
+
+body.dark-mode .tierlist-link {
+
+  border-top: 3px solid #FFC247;
+  border-bottom: 3px solid #FFC247;
+  border-left: 3px solid #5D00FF;
+  border-right: 3px solid #5D00FF;
+
+  background:
+    linear-gradient(to bottom,
+      rgba(34, 34, 34, .95),
+      rgba(18, 18, 18, .95));
+
+  color: #F5F5F5;
+
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, .45),
+    0 4px 8px rgba(0, 0, 0, .25);
+
+}
+
+body.dark-mode .tierlist-link::after {
+
+  color: #7FBFFF;
+
+}
+
+body.dark-mode .tierlist-link:hover {
+
+  background:
+    linear-gradient(to bottom,
+      rgba(48, 48, 48, 1),
+      rgba(26, 26, 26, 1));
+
+  box-shadow:
+    0 12px 24px rgba(0, 0, 0, .55),
+    0 0 16px rgba(127, 191, 255, .25);
+
 }
 
 /* ===================== */

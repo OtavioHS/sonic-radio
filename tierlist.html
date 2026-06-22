@@ -2,66 +2,186 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Sonic Radio - Tier List</title>
 
     <link rel="stylesheet" href="tierlist.css">
+
 </head>
 
 <body>
 
-    <div class="tier-container">
+    <!-- BACK TO RADIO -->
 
-        <h1>Sonic Radio Tier List</h1>
+    <div class="footer-controls">
 
-        <div class="tier-board">
+        <a href="index.html" class="radio-link">
 
-            <div class="tier-row x-tier">
-                <div class="tier-label">X</div>
-                <div class="tier-dropzone"></div>
+            Back to Radio
+
+        </a>
+
+    </div>
+
+    <!-- MAIN LAYOUT -->
+
+    <div class="tierlist-layout">
+
+        <!-- TIER LIST -->
+
+        <div class="tierlist-container">
+
+            <h1>Sonic Radio Tier List</h1>
+
+            <div class="tier-board">
+
+                <div class="tier-row x-tier">
+
+                    <div class="tier-label">
+                        <textarea class="tier-name-input">X</textarea>
+                    </div>
+
+                    <div class="tier-dropzone"></div>
+
+                    <div class="tier-controls">
+
+                        <button class="tier-settings">
+                            ⚙
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="tier-row s-tier">
+
+                    <div class="tier-label">
+                        <textarea class="tier-name-input">S</textarea>
+                    </div>
+
+                    <div class="tier-dropzone"></div>
+
+                    <div class="tier-controls">
+
+                        <button class="tier-settings">
+                            ⚙
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="tier-row a-tier">
+
+                    <div class="tier-label">
+                        <textarea class="tier-name-input">A</textarea>
+                    </div>
+
+                    <div class="tier-dropzone"></div>
+
+                    <div class="tier-controls">
+
+                        <button class="tier-settings">
+                            ⚙
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="tier-row b-tier">
+
+                    <div class="tier-label">
+                        <textarea class="tier-name-input">B</textarea>
+                    </div>
+
+                    <div class="tier-dropzone"></div>
+
+                    <div class="tier-controls">
+
+                        <button class="tier-settings">
+                            ⚙
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="tier-row c-tier">
+
+                    <div class="tier-label">
+                        <textarea class="tier-name-input">C</textarea>
+                    </div>
+
+                    <div class="tier-dropzone"></div>
+
+                    <div class="tier-controls">
+
+                        <button class="tier-settings">
+                            ⚙
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="tier-row d-tier">
+
+                    <div class="tier-label">
+                        <textarea class="tier-name-input">D</textarea>
+                    </div>
+
+                    <div class="tier-dropzone"></div>
+
+                    <div class="tier-controls">
+
+                        <button class="tier-settings">
+                            ⚙
+                        </button>
+
+                    </div>
+
+                </div>
+
             </div>
 
-            <div class="tier-row ss-tier">
-                <div class="tier-label">SS</div>
-                <div class="tier-dropzone"></div>
-            </div>
-
-            <div class="tier-row s-tier">
-                <div class="tier-label">S</div>
-                <div class="tier-dropzone"></div>
-            </div>
-
-            <div class="tier-row aa-tier">
-                <div class="tier-label">AA</div>
-                <div class="tier-dropzone"></div>
-            </div>
-
-            <div class="tier-row a-tier">
-                <div class="tier-label">A</div>
-                <div class="tier-dropzone"></div>
-            </div>
-
-            <div class="tier-row b-tier">
-                <div class="tier-label">B</div>
-                <div class="tier-dropzone"></div>
-            </div>
-
-            <div class="tier-row c-tier">
-                <div class="tier-label">C</div>
-                <div class="tier-dropzone"></div>
-            </div>
+            <div class="song-pool"></div>
 
         </div>
 
-        <div class="song-pool"></div>
+        <!-- PLAYLIST / PLAYER -->
+        <!-- vamos preencher depois -->
 
+        <div class="playlist-panel">
+
+            <div class="player-panel">
+
+                <audio id="audioPlayer"></audio>
+
+            </div>
+
+            <div class="playlist-sidebar"></div>
+
+            <div class="playlist-controls">
+
+                <button id="playlist-toggle">
+                    ▶
+                </button>
+
+            </div>
+
+        </div>
     </div>
 
-    </div>
+    <div id="tier-color-picker"></div>
 
     <script src="assets/data/tracks.js"></script>
     <script src="tierlist.js"></script>
+    <script src="tierplayer.js"></script>
 
 </body>
 
