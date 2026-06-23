@@ -208,11 +208,10 @@ function createSongCard(song) {
     card.dataset.id =
         song.id;
 
+    card.style.backgroundImage =
+        `url(${song.cover})`;
+
     card.innerHTML = `
-        <img
-            src="${song.cover}"
-            class="tier-song-cover"
-        >
 
         <div class="tier-song-info">
 
@@ -278,11 +277,15 @@ function addSongToPool(song) {
     if (!songPool) return;
 
     const existing =
-        songPool.querySelector(
-            `[data-id="${song.id}"]`
+        document.querySelector(
+            `.tier-song[data-id="${song.id}"]`
         );
 
     if (existing) {
+
+        songPool.appendChild(
+            existing
+        );
 
         existing.scrollIntoView({
             behavior: "smooth",

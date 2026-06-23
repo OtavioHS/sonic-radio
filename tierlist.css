@@ -112,21 +112,6 @@ body.dark-mode::before {
 
 }
 
-.tier-song-cover {
-
-  width: 64px;
-  height: 64px;
-
-  object-fit: cover;
-
-  border-radius: 10px;
-
-  display: block;
-
-  margin: 0 auto 8px;
-
-}
-
 .playlist-panel {
 
   width: 350px;
@@ -832,47 +817,74 @@ body.dark-mode::before {
 
 .tier-song {
 
-  width: 100px;
-  height: fit-content;
+  position: relative;
 
-  padding: 10px;
+  width: 90px;
+  height: 90px;
 
   border-radius: 12px;
 
-  background:
-    linear-gradient(145deg,
-      rgba(255, 255, 255, .95),
-      rgba(220, 240, 255, .95));
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  cursor: grab;
+  user-select: none;
+
+  transition: .2s ease;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
   border-top: 3px solid #0E8F30;
   border-bottom: 3px solid #0C3CBD;
   border-left: 3px solid #FBD200;
   border-right: 3px solid #ff2a2a;
-
-  color: #0d1b2a;
-
-  text-align: center;
-
-  cursor: grab;
-
-  user-select: none;
-
-  transition: .2s ease;
-
 }
+
+/* Overlay */
+
+.tier-song::before {
+
+  content: "";
+
+  position: absolute;
+  inset: 0;
+
+  background: rgba(255, 255, 255, 0.65);
+
+  z-index: 1;
+}
+
+/* Texto */
 
 .tier-song-info {
-  font-size: clamp(9px, 2vw, 12px)
+
+  position: relative;
+
+  z-index: 2;
+
+  color: #000;
+
+  font-weight: 700;
+
+  text-shadow:
+    0 0 3px rgba(255, 255, 255, .8);
+
+  font-size: clamp(5px, 2vw, 13px);
+
+  padding: 8px;
 }
 
-body.dark-mode .tier-song {
-  background:
-    linear-gradient(145deg,
-      rgba(28, 34, 54, .95),
-      rgba(16, 20, 35, .95));
-
-  border-color: #4da6ff;
-  color: #ffffff;
+.tier-song::before {
+  background: linear-gradient(to bottom,
+      rgba(255, 255, 255, .55),
+      rgba(255, 255, 255, .85));
 }
 
 .tier-song:active {

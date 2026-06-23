@@ -401,7 +401,7 @@ const tierlistSongs = [
         disc: "CD 1 – Genesis Classics",
         subgame: "JP",
         id: "youcandoanything",
-        title: "Sonic - You Can Do Anything",
+        title: "You Can Do Anything",
         game: "Sonic CD",
         cover: "assets/covers/sonic-cd.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-cd/jp/toottootsonic.flac",
@@ -412,7 +412,7 @@ const tierlistSongs = [
         disc: "CD 1 – Genesis Classics",
         subgame: "JP",
         id: "youcandoanythinginstrumental",
-        title: "Sonic - You Can Do Anything (Instrumental)",
+        title: "You Can Do Anything (Instrumental)",
         game: "Sonic CD",
         cover: "assets/covers/sonic-cd.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-cd/jp/toottootsonicinstrumental.flac",
@@ -780,7 +780,7 @@ const tierlistSongs = [
         disc: "CD 1 – Genesis Classics",
         subgame: "JP",
         id: "believeinyourself",
-        title: "Cosmic Eternity - Believe in Yourself",
+        title: "Believe in Yourself",
         game: "Sonic CD",
         cover: "assets/covers/sonic-cd.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-cd/jp/believeinyourself.flac",
@@ -791,7 +791,7 @@ const tierlistSongs = [
         disc: "CD 1 – Genesis Classics",
         subgame: "JP",
         id: "believeinyourselfinstrumental",
-        title: "Cosmic Eternity - Believe in Yourself (Instrumental)",
+        title: "Believe in Yourself (Instrumental)",
         game: "Sonic CD",
         cover: "assets/covers/sonic-cd.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-cd/jp/believeinyourselfinstrumental.flac",
@@ -1112,7 +1112,6 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
         id: "dataselect",
         title: "Data Select",
         game: "Sonic 3 & Knuckles",
@@ -1123,7 +1122,6 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
         id: "knuckles3",
         title: "Knuckles' Theme (Sonic 3)",
         game: "Sonic 3 & Knuckles",
@@ -1134,7 +1132,6 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
         id: "knucklesk",
         title: "Knuckles' Theme (Sonic & Knuckles)",
         game: "Sonic 3 & Knuckles",
@@ -1145,7 +1142,6 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
         id: "angelisland1",
         title: "Angel Island Zone Act 1",
         game: "Sonic 3 & Knuckles",
@@ -1156,7 +1152,6 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
         id: "angelisland2",
         title: "Angel Island Zone Act 2",
         game: "Sonic 3 & Knuckles",
@@ -1167,7 +1162,6 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
         id: "hydrocity1",
         title: "Hydrocity Zone Act 1",
         game: "Sonic 3 & Knuckles",
@@ -1178,7 +1172,6 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
         id: "hydrocity2",
         title: "Hydrocity Zone Act 2",
         game: "Sonic 3 & Knuckles",
@@ -1189,7 +1182,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "marblegarden1",
         title: "Marble Garden Zone Act 1",
         game: "Sonic 3 & Knuckles",
@@ -1201,7 +1194,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "marblegarden2",
         title: "Marble Garden Zone Act 2",
         game: "Sonic 3 & Knuckles",
@@ -1213,7 +1206,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "carnivalnight1",
         title: "Carnival Night Zone Act 1",
         game: "Sonic 3 & Knuckles",
@@ -1225,7 +1218,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "carnivalnight1proto",
         title: "Carnival Night Zone Act 1 (Prototype)",
         game: "Sonic 3 & Knuckles",
@@ -1236,7 +1229,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "carnivalnight2",
         title: "Carnival Night Zone Act 2",
         game: "Sonic 3 & Knuckles",
@@ -1248,7 +1241,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "carnivalnight2proto",
         title: "Carnival Night Zone Act 2 (Prototype)",
         game: "Sonic 3 & Knuckles",
@@ -1259,7 +1252,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "icecap1",
         title: "IceCap Zone Act 1",
         game: "Sonic 3 & Knuckles",
@@ -1271,7 +1264,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "icecap1proto",
         title: "IceCap Zone Act 1 (Prototype)",
         game: "Sonic 3 & Knuckles",
@@ -1282,7 +1275,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "icecap2",
         title: "IceCap Zone Act 2",
         game: "Sonic 3 & Knuckles",
@@ -1294,7 +1287,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "icecap2proto",
         title: "IceCap Zone Act 2 (Prototype)",
         game: "Sonic 3 & Knuckles",
@@ -1305,7 +1298,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "launchbase1",
         title: "Launch Base Zone Act 1",
         game: "Sonic 3 & Knuckles",
@@ -1317,7 +1310,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "launchbase1proto",
         title: "Launch Base Zone Act 1 (Prototype)",
         game: "Sonic 3 & Knuckles",
@@ -1328,7 +1321,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "launchbase2",
         title: "Launch Base Zone Act 2",
         game: "Sonic 3 & Knuckles",
@@ -1340,7 +1333,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "launchbase2proto",
         title: "Launch Base Zone Act 2 (Prototype)",
         game: "Sonic 3 & Knuckles",
@@ -1351,7 +1344,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "mushroomhill1",
         title: "Mushroom Hill Zone Act 1",
         game: "Sonic 3 & Knuckles",
@@ -1362,7 +1355,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "mushroomhill2",
         title: "Mushroom Hill Zone Act 2",
         game: "Sonic 3 & Knuckles",
@@ -1373,7 +1366,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "flyingbattery1",
         title: "Flying Battery Zone Act 1",
         game: "Sonic 3 & Knuckles",
@@ -1384,7 +1377,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "flyingbattery2",
         title: "Flying Battery Zone Act 2",
         game: "Sonic 3 & Knuckles",
@@ -1395,7 +1388,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "sandopolis1",
         title: "Sandopolis Zone Act 1",
         game: "Sonic 3 & Knuckles",
@@ -1406,7 +1399,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "sandopolis2",
         title: "Sandopolis Zone Act 2",
         game: "Sonic 3 & Knuckles",
@@ -1417,7 +1410,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "lavareef1",
         title: "Lava Reef Zone Act 1",
         game: "Sonic 3 & Knuckles",
@@ -1428,7 +1421,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "lavareef2",
         title: "Lava Reef Zone Act 2",
         game: "Sonic 3 & Knuckles",
@@ -1439,7 +1432,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "skysanctuary",
         title: "Sky Sanctuary Zone",
         game: "Sonic 3 & Knuckles",
@@ -1451,7 +1444,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "deathegg1",
         title: "Death Egg Zone Act 1",
         game: "Sonic 3 & Knuckles",
@@ -1462,7 +1455,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "deathegg2",
         title: "Death Egg Zone Act 2",
         game: "Sonic 3 & Knuckles",
@@ -1473,7 +1466,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "bonusstage1",
         title: "Bonus Stage 1 (Gumball Machine)",
         game: "Sonic 3 & Knuckles",
@@ -1485,7 +1478,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "bonusstage2",
         title: "Bonus Stage 2 (Magnetic Orbs)",
         game: "Sonic 3 & Knuckles",
@@ -1497,7 +1490,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "bonusstage3",
         title: "Bonus Stage 3 (Slot Machine)",
         game: "Sonic 3 & Knuckles",
@@ -1509,7 +1502,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "bluespheres",
         title: "Blue Spheres",
         game: "Sonic 3 & Knuckles",
@@ -1521,7 +1514,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "miniboss",
         title: "Mini Boss",
         game: "Sonic 3 & Knuckles",
@@ -1532,7 +1525,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "minibossk",
         title: "Mini Boss (Sonic & Knuckles)",
         game: "Sonic 3 & Knuckles",
@@ -1543,7 +1536,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "boss",
         title: "Boss",
         game: "Sonic 3 & Knuckles",
@@ -1555,7 +1548,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "bigarms",
         title: "Big Arms",
         game: "Sonic 3 & Knuckles",
@@ -1566,7 +1559,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "doomsday",
         title: "The Doomsday Zone",
         game: "Sonic 3 & Knuckles",
@@ -1577,7 +1570,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "competitionmenu",
         title: "Competition Menu",
         game: "Sonic 3 & Knuckles",
@@ -1588,7 +1581,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "azurelake",
         title: "Azure Lake",
         game: "Sonic 3 & Knuckles",
@@ -1599,7 +1592,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "balloonpark",
         title: "Balloon Park",
         game: "Sonic 3 & Knuckles",
@@ -1610,7 +1603,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "chromegadget",
         title: "Chrome Gadget",
         game: "Sonic 3 & Knuckles",
@@ -1621,7 +1614,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "desertpalace",
         title: "Desert Palace",
         game: "Sonic 3 & Knuckles",
@@ -1632,7 +1625,7 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "endlessmine",
         title: "Endless Mine",
         game: "Sonic 3 & Knuckles",
@@ -1643,13 +1636,392 @@ const tierlistSongs = [
     {
         collection: "Classic Era",
         disc: "CD 1 – Genesis Classics",
-        subgame: "Genesis",
+
         id: "staffroll",
         title: "Staff Roll",
         game: "Sonic 3 & Knuckles",
         cover: "assets/covers/sonic3.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/genesis/staffroll.flac",
         composer: "Brad Buxer, Michael Jackson"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "dataselectpc",
+        title: "Data Select",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/dataselect.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "knuckles3pc",
+        title: "Knuckles' Theme (Sonic 3)",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/knuckles3.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "knuckleskpc",
+        title: "Knuckles' Theme (Sonic & Knuckles)",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/knucklesk.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "angelisland1pc",
+        title: "Angel Island Zone Act 1",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/angelisland1.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "angelisland2pc",
+        title: "Angel Island Zone Act 2",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/angelisland2.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "hydrocity1pc",
+        title: "Hydrocity Zone Act 1",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/hydrocity1.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "hydrocity2pc",
+        title: "Hydrocity Zone Act 2",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/hydrocity2.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "marblegarden1pc",
+        title: "Marble Garden Zone Act 1",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/marblegarden1.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "marblegarden2pc",
+        title: "Marble Garden Zone Act 2",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/marblegarden2.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "carnivalnight1pc",
+        title: "Carnival Night Zone Act 1",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/carnivalnight1.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "carnivalnight2pc",
+        title: "Carnival Night Zone Act 2",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/carnivalnight2.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "icecap1pc",
+        title: "IceCap Zone Act 1",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/icecap1.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "icacap2pc",
+        title: "IceCap Zone Act 2",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/icacap2.mp3"
+    },
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "launchbase1pc",
+        title: "Launch Base Zone Act 1",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/launchbase1.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "launchbase2pc",
+        title: "Launch Base Zone Act 2",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/launchbase2.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "mushroomhill1pc",
+        title: "Mushroom Hill Zone Act 1",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/mushroomhill1.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "mushroomhill2pc",
+        title: "Mushroom Hill Zone Act 2",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/mushroomhill2.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "flyingbattery1pc",
+        title: "Flying Battery Zone Act 1",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/flyingbattery1.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "flyingbattery2pc",
+        title: "Flying Battery Zone Act 2",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/flyingbattery2.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "sandopolis1pc",
+        title: "Sandopolis Zone Act 1",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/sandopolis1.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "sandopolis2pc",
+        title: "Sandopolis Zone Act 2",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/sandopolis2.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "lavareef1pc",
+        title: "Lava Reef Zone Act 1",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/lavareef1.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "lavareef2pc",
+        title: "Lava Reef Zone Act 2",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/lavareef2.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "skysanctuarypc",
+        title: "Sky Sanctuary Zone",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/skysanctuary.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "deathegg1pc",
+        title: "Death Egg Zone Act 1",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/deathegg1.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "deathegg2pc",
+        title: "Death Egg Zone Act 2",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/deathegg2.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "minibosspc",
+        title: "Mini Boss",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/miniboss.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "bosssonic3pc",
+        title: "Boss",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/boss.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "bigarmspc",
+        title: "Big Arms",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/bigarms.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "doomsdaypc",
+        title: "The Doomsday Zone",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/doomsday.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "competitionmenupc",
+        title: "Competition Menu",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/competitionmenu.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "azurelakepc",
+        title: "Azure Lake",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/azurelake.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "balloonparkpc",
+        title: "Balloon Park",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/balloonpark.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "chromegadgetpc",
+        title: "Chrome Gadget",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/chromegadget.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "desertpalacepc",
+        title: "Desert Palace",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/desertpalace.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "endlessminepc",
+        title: "Endless Mine",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/endlessmine.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "staffrollpc",
+        title: "Staff Roll",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/staffroll.mp3"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 1 – Genesis Classics",
+        id: "unusedendingpc",
+        title: "Unused Ending",
+        game: "Sonic & Knuckles Collection",
+        cover: "assets/covers/sonic-knuckles-collection.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic3/pc/unusedending.mp3"
     }
 
 ];

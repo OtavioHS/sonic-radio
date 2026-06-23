@@ -100,6 +100,60 @@ const triviaMap = {
     <img src="assets/background/marble-ufo.gif">
   </div>
   `,
+  "Sonic the Hedgehog (1991)|Spring Yard Zone": `
+    The zone was originally called
+    <br>
+    Sparkling Zone!
+    <br>
+    <br>
+    Rather than an urban city with
+    <br>
+    mountains in the back, it was
+    <br>
+    supposed to be luminous Las Vegas
+    <br>
+    like casino with neon signs and
+    <br>
+    a star-lit sky!
+    <br>
+    <br>
+    Including an unused sign that read
+    <br>
+    "Let's Go" in cursive, never to be
+    <br>
+    properly implemented.
+
+    <div class="springyard-letsgo">
+      <img src="assets/background/springyard-letsgo.gif">
+    </div>
+  `,
+  "Sonic the Hedgehog (1991)|Labyrinth Zone": `
+    The zone was originally supposed
+    <br>
+    to have an unique item: Goggles!
+    <br>
+    <br>
+    So, rather than catching bubbles
+    <br>
+    to survive the mortal labyrinth
+    <br>
+    Sonic would breath underwater
+    <br>
+    with one of these!
+    <br>
+    <br>
+    The item is available inside the
+    <br>
+    Debug Mode of 2013 version as well
+    <br>
+    and acts like a Shield with a special
+    <br>
+    property.
+
+    <div class="goggles-sonic">
+      <img src="assets/background/goggles-sonic.gif">
+    </div>
+  `,
 
   //SONIC 2//
 
@@ -313,6 +367,45 @@ const settingsToggle = document.getElementById("settingsToggle");
 const settingsPanel = document.getElementById("settingsPanel");
 
 const darkModeToggle = document.getElementById("darkModeToggle");
+const oledModeToggle =
+  document.getElementById(
+    "oledModeToggle"
+  );
+
+oledModeToggle.addEventListener(
+  "change",
+  () => {
+
+    if (oledModeToggle.checked) {
+
+      document.body.classList.add(
+        "oled-mode"
+      );
+
+      document.body.classList.remove(
+        "dark-mode"
+      );
+
+      darkModeToggle.checked = false;
+
+      darkModeToggle.disabled = true;
+
+    } else {
+
+      document.body.classList.remove(
+        "oled-mode"
+      );
+
+      darkModeToggle.disabled = false;
+
+    }
+
+    updateLogo();
+
+    saveSettings();
+
+  }
+);
 const layoutToggle = document.getElementById("layoutToggle");
 
 const player = document.querySelector(".player");
@@ -390,6 +483,7 @@ function saveSettings() {
     loop: isLoop,
     volume: audio.volume,
     darkMode: document.body.classList.contains("dark-mode"),
+    oledMode: document.body.classList.contains("oled-mode"),
     horizontalLayout: player.classList.contains("horizontal")
   }));
 }
@@ -402,30 +496,70 @@ function updateLogo() {
   const darkLogo =
     document.querySelector(".logo-dark");
 
-  const isDark =
-    document.body.classList.contains("dark-mode");
+  const oledLogo =
+    document.querySelector(".logo-oled");
+
+  let nextLogo;
+
+  if (
+    document.body.classList.contains(
+      "oled-mode"
+    )
+  ) {
+
+    nextLogo = oledLogo;
+
+  } else if (
+    document.body.classList.contains(
+      "dark-mode"
+    )
+  ) {
+
+    nextLogo = darkLogo;
+
+  } else {
+
+    nextLogo = lightLogo;
+
+  }
 
   const currentLogo =
-    isDark ? lightLogo : darkLogo;
+    [lightLogo, darkLogo, oledLogo]
+      .find(
+        logo =>
+          getComputedStyle(logo)
+            .display !== "none"
+      );
 
-  const nextLogo =
-    isDark ? darkLogo : lightLogo;
+  if (
+    currentLogo === nextLogo
+  ) return;
 
-  currentLogo.classList.add("fade-out");
+  currentLogo.classList.add(
+    "fade-out"
+  );
 
   setTimeout(() => {
 
-    currentLogo.style.display = "none";
+    currentLogo.style.display =
+      "none";
 
-    nextLogo.style.display = "block";
+    nextLogo.style.display =
+      "block";
 
-    nextLogo.style.opacity = "0";
+    nextLogo.style.opacity =
+      "0";
 
     requestAnimationFrame(() => {
-      nextLogo.style.opacity = "1";
+
+      nextLogo.style.opacity =
+        "1";
+
     });
 
-    currentLogo.classList.remove("fade-out");
+    currentLogo.classList.remove(
+      "fade-out"
+    );
 
   }, 200);
 
@@ -2635,9 +2769,19 @@ if (
 }
 
 if (darkModeToggle) {
+
   darkModeToggle.addEventListener(
     "change",
     () => {
+
+      if (
+        document.body.classList.contains(
+          "oled-mode"
+        )
+      ) {
+        darkModeToggle.checked = false;
+        return;
+      }
 
       document.body.classList.toggle(
         "dark-mode",
@@ -2650,7 +2794,32 @@ if (darkModeToggle) {
 
     }
   );
+
 }
+
+oledModeToggle.addEventListener(
+  "change",
+  () => {
+
+    document.body.classList.toggle(
+      "oled-mode",
+      oledModeToggle.checked
+    );
+
+    if (oledModeToggle.checked) {
+
+      darkModeToggle.checked = false;
+
+      document.body.classList.remove(
+        "dark-mode"
+      );
+
+    }
+
+    saveSettings();
+
+  }
+);
 
 if (layoutToggle) {
   layoutToggle.addEventListener("change", () => {
