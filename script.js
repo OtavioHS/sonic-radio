@@ -658,6 +658,19 @@ function loadSettings() {
 
   }
 
+  if (settings.oledMode) {
+
+    document.body.classList.add("oled-mode");
+
+    if (oledModeToggle) {
+      oledModeToggle.checked = true;
+    }
+
+    document.querySelector(".logo-light").style.display = "none";
+    document.querySelector(".logo-oled").style.display = "block";
+
+  }
+
   if (settings.horizontalLayout) {
 
     player.classList.add("horizontal");
