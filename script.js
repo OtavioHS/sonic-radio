@@ -154,8 +154,73 @@ const triviaMap = {
       <img src="assets/background/goggles-sonic.gif">
     </div>
   `,
+  "Sonic the Hedgehog (1991)|Star Light Zone": `
+    This is the only Zone in Sonic 1
+    <br>
+    to feature elements not only in
+    <br>
+    the background, but also at the
+    <br>
+    foreground!
+
+    <div class="starlight-tile">
+      <img src="assets/background/starlight-tile.gif">
+    </div>
+  `,
+  "Sonic the Hedgehog (1991)|Scrap Brain Zone": `
+    The Act 2 of this Zone contains
+    <br>
+    a secret path only accessible if
+    <br>
+    the player collects & manages to
+    <br>
+    keep 50 rings!
+    <br>
+    <br>
+    Said secret path is located at a
+    <br>
+    very specific Warp Tube! Look out!
+
+    <div class="scrapbrain-teleporter">
+      <img src="assets/background/scrapbrain-teleporter.gif">
+    </div>
+  `,
+  "Sonic the Hedgehog (1991)|Special Stage": `
+    These stages were mechanically
+    <br>
+    inspired by the game Cameltry on
+    <br>
+    the NES!
+    <br>
+    <br>
+    Though, unlike Cameltry you don't
+    <br>
+    rotate the stage, but rather have
+    <br>
+    full control of Sonic!
+
+    <div class="specialstage-items">
+      <img src="assets/background/specialstage-items.gif">
+    </div>
+  `,
 
   //SONIC 2//
+  "Sonic the Hedgehog 2|Emerald Hill Zone": `
+    Emerald Hill's name is actually
+    <br>
+    taken from a neighborhood south
+    <br>
+    of San Francisco which is called
+    <br>
+    Emerald Hills!
+    <br>
+    <br>
+    Upon noticing the name during a
+    <br>
+    location test, the team decided
+    <br>
+    to use it in the final game.
+  `,
 
   //SONIC 3//
   "Sonic 3 & Knuckles|Angel Island Zone Act 1": `
