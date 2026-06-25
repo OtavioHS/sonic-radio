@@ -5257,3 +5257,52 @@ body.oled-mode .credit {
   height: relative;
   image-rendering: pixelated;
 }
+
+.bubble-timer {
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  margin-top: 3px;
+}
+
+.bubble-timer img {
+
+  width: 28px;
+  height: 40px;
+  image-rendering: pixelated;
+}
+
+.casino-tile {
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  margin-top: 12px;
+}
+
+.casino-tile img {
+
+  width: 128px;
+  height: 128px;
+  image-rendering: pixelated;
+}
+
+.emeraldhilltop-tileset {
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  margin-top: 45px;
+  margin-right: 35px;
+}
+
+.emeraldhilltop-tileset img {
+
+  width: 384px;
+  height: relative;
+  image-rendering: pixelated;
+}

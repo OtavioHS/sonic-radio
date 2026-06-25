@@ -221,6 +221,121 @@ const triviaMap = {
     <br>
     to use it in the final game.
   `,
+  "Sonic the Hedgehog 2|Chemical Plant Zone": `
+    There is actually a way to avoid
+    <br>
+    the infamous underwater sequence
+    <br>
+    in this Zone's Act 2!
+    <br>
+    <br>
+    All the player has to do is keep
+    <br>
+    an eye out once they're launched
+    <br>
+    upwards midway through the level.
+    <br>
+    <br>
+    After passing by the moving blocks
+    <br>
+    instead of rolling right into the
+    <br>
+    Dash Pad, the player must either
+    <br>
+    jump over it or brake once triggering
+    <br>
+    it.
+    <br>
+    <br>
+    Then go left and they'll find a well
+    <br>
+    hidden passage all the way to the boss!
+    <div class="bubble-timer">
+      <img src="assets/background/bubble-timer.gif">
+    </div>
+  `,
+  "Sonic the Hedgehog 2|Aquatic Ruin Zone": `
+    In the Simon Wai Prototype, this
+    <br>
+    Zone had an entire different name:
+    <br>
+    Neo Green Hill Zone!
+    <br>
+    <br>
+    A name later used to designate
+    <br>
+    Sonic Advance's first Zone!
+    <br>
+    <br>
+    Coincidentally this Zone was also
+    <br>
+    the very first in the Simon Wai
+    <br>
+    Prototype!
+  `,
+  "Sonic the Hedgehog 2|Casino Night Zone": `
+    Early in development, this Zone
+    <br>
+    actually had a completely different
+    <br>
+    color palette!
+    <br>
+    <br>
+    A palette more focused on pinks and
+    <br>
+    sky blues and card symbols rather
+    <br>
+    than the usual casino-theming.
+
+    <div class="casino-tile">
+      <img src="assets/background/casino-tile.gif">
+    </div>
+  `,
+  "Sonic the Hedgehog 2|Hill Top Zone": `
+    Originally in development, when the
+    <br>
+    game still took into account a time
+    <br>
+    travel mechanic, Hill Top Zone was
+    <br>
+    supposed to be a past version of
+    <br>
+    Emerald Hill Zone!
+    <br>
+    <br>
+    Noticeable in the final game by
+    <br>
+    the proximity of their tileset.
+
+    <div class="emeraldhilltop-tileset">
+      <img src="assets/background/emeraldhilltop-tileset.gif">
+    </div>
+  `,
+  "Sonic the Hedgehog 2|Mystic Cave Zone": `
+    This Zone's Act 2 has one of the
+    <br>
+    most infamous places in gaming:
+    <br>
+    an inescapable pit of spikes!
+    <br>
+    <br>
+    At least it was the case in the
+    <br>
+    original 1992 version of the game.
+    <br>
+    <br>
+    since then, in the 2013 version,
+    <br>
+    the pit has been replaced with an
+    <br>
+    secret entrance to the mysterious
+    <br>
+    Hidden Palace Zone!
+
+    <div class="emeraldhilltop-tileset">
+      <img src="assets/background/emeraldhilltop-tileset.gif">
+    </div>
+  `,
 
   //SONIC 3//
   "Sonic 3 & Knuckles|Angel Island Zone Act 1": `
