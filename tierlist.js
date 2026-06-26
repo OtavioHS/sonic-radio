@@ -939,6 +939,151 @@ function initPlaylistControls() {
 
 }
 
+function downloadTierScreenshot(canvas) {
+
+    const link =
+        document.createElement("a");
+
+    const now =
+        new Date();
+
+    const timestamp =
+        `${now.getFullYear()}-${String(now.getMonth() + 1)
+            .padStart(2, "0")
+        }-${String(now.getDate())
+            .padStart(2, "0")
+        }_${String(now.getHours())
+            .padStart(2, "0")
+        }-${String(now.getMinutes())
+            .padStart(2, "0")
+        }-${String(now.getSeconds())
+            .padStart(2, "0")
+        }`;
+
+    link.download =
+        `tierlist-${timestamp}.png`;
+
+    link.href =
+        canvas.toDataURL("image/png");
+
+    link.click();
+
+}
+
+function initTierScreenshot() {
+
+    const button =
+        document.getElementById(
+            "tier-screenshot-btn"
+        );
+
+    const tierList =
+        document.querySelector(
+            ".tier-list-container"
+        );
+
+    const playlistSidebar =
+        document.querySelector(
+            ".playlist-sidebar"
+        );
+
+    const controls =
+        document.querySelector(
+            ".playlist-controls"
+        );
+
+    if (
+        !button ||
+        !tierList ||
+        !playlistSidebar ||
+        !controls
+    ) return;
+
+    button.addEventListener(
+        "click",
+        async () => {
+
+            const oldSidebarDisplay =
+                playlistSidebar.style.display;
+
+            const oldControlsDisplay =
+                controls.style.display;
+
+            // esconde UI
+            playlistSidebar.style.display =
+                "none";
+
+            controls.style.display =
+                "none";
+
+            // watermark temporária
+            const watermark =
+                document.createElement(
+                    "div"
+                );
+
+            watermark.textContent =
+                "SONIC RADIO TIER LIST";
+
+            watermark.style.position =
+                "absolute";
+
+            watermark.style.bottom =
+                "20px";
+
+            watermark.style.right =
+                "20px";
+
+            watermark.style.fontSize =
+                "14px";
+
+            watermark.style.fontFamily =
+                `"Syntax Ultra Black", sans-serif`;
+
+            watermark.style.color =
+                "rgba(255,255,255,.55)";
+
+            watermark.style.pointerEvents =
+                "none";
+
+            watermark.style.zIndex =
+                "999";
+
+            tierList.appendChild(
+                watermark
+            );
+
+            await new Promise(resolve =>
+                setTimeout(resolve, 100)
+            );
+
+            const canvas =
+                await html2canvas(
+                    tierList,
+                    {
+                        backgroundColor: null,
+                        scale: 2
+                    }
+                );
+
+            // restaura UI
+            playlistSidebar.style.display =
+                oldSidebarDisplay;
+
+            controls.style.display =
+                oldControlsDisplay;
+
+            watermark.remove();
+
+            downloadTierScreenshot(
+                canvas
+            );
+
+        }
+    );
+
+}
+
 loadTierConfig();
 
 initTierList();
@@ -948,3 +1093,4 @@ createColorPicker();
 initTierColorEditor();
 initPlaylistControls();
 initTierVolume();
+initTierScreenshot();

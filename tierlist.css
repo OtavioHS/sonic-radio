@@ -203,15 +203,14 @@ body.dark-mode::before {
 
   position: relative;
 
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  height: 70px;
+  padding: 12px 18px;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+
+  gap: 12px;
 
   backdrop-filter: blur(10px);
 
@@ -222,6 +221,16 @@ body.dark-mode::before {
 
   border-top:
     2px solid rgba(255, 255, 255, .15);
+
+}
+
+.control-buttons {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 14px;
 
 }
 
@@ -271,6 +280,63 @@ body.dark-mode::before {
 
   box-shadow:
     0 10px 20px rgba(0, 0, 0, .35);
+
+}
+
+.tierlist-volume {
+
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+#tierVolumeSlider {
+  width: 100%;
+  min-width: 20%;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+#tier-screenshot-btn {
+
+  width: 42px;
+  height: 42px;
+
+  border: none;
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  font-size: 20px;
+
+  background:
+    linear-gradient(to bottom,
+      #1450E0,
+      #0C3CBD);
+
+  color: white;
+
+  border-top: 2px solid #0E8F30;
+  border-bottom: 2px solid #0C3CBD;
+  border-left: 2px solid #FBD200;
+  border-right: 2px solid #ff2a2a;
+
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, .25);
+
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease;
+
+}
+
+#tier-screenshot-btn:hover {
+
+  transform: scale(1.08);
+
+  box-shadow:
+    0 8px 18px rgba(0, 0, 0, .35);
 
 }
 
@@ -644,20 +710,6 @@ body.dark-mode::before {
   text-shadow:
     2px 2px 6px rgba(0, 0, 0, .6);
 
-}
-
-.tierlist-volume {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-}
-
-#tierVolumeSlider {
-  width: 100%;
-  min-width: 20%;
-  max-width: 100%;
-  cursor: pointer;
 }
 
 /* ===================== */
