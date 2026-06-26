@@ -2729,6 +2729,433 @@ const tierlistSongs = [
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/ending.mp3",
         composer: "Yayoi Wachi"
+    },
+    {
+        collection: "Classic Era",
+        disc: "CD 2 – 8-Bit Collection",
+        id: "openingblast",
+        title: "Opening",
+        game: "Sonic Blast",
+        cover: "assets/covers/sonic-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-blast/opening.mp3",
+        composer: "Kojiro Mikusa"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 2 – 8-Bit Collection",
+        id: "titlescreenblast",
+        title: "Title Screen",
+        game: "Sonic Blast",
+        cover: "assets/covers/sonic-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-blast/titlescreen.mp3",
+        composer: "Kojiro Mikusa"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 2 – 8-Bit Collection",
+        id: "characterselectblast",
+        title: "Character Select",
+        game: "Sonic Blast",
+        cover: "assets/covers/sonic-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-blast/characterselect.mp3",
+        composer: "Kojiro Mikusa"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 2 – 8-Bit Collection",
+        id: "greenhillblast",
+        title: "Green Hill Zone",
+        game: "Sonic Blast",
+        cover: "assets/covers/sonic-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-blast/greenhill.mp3",
+        composer: "Kojiro Mikusa"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 2 – 8-Bit Collection",
+        id: "yellowdesertblast",
+        title: "Yellow Desert Zone",
+        game: "Sonic Blast",
+        cover: "assets/covers/sonic-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-blast/yellowdesert.mp3",
+        composer: "Kojiro Mikusa"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 2 – 8-Bit Collection",
+        id: "redvolcanoblast",
+        title: "Red Volcano Zone",
+        game: "Sonic Blast",
+        cover: "assets/covers/sonic-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-blast/redvolcano.mp3",
+        composer: "Kojiro Mikusa"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 2 – 8-Bit Collection",
+        id: "bluemarineblast",
+        title: "Blue Marine Zone",
+        game: "Sonic Blast",
+        cover: "assets/covers/sonic-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-blast/bluemarine.mp3",
+        composer: "Kojiro Mikusa"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 2 – 8-Bit Collection",
+        id: "silvercastleblast",
+        title: "Silver Castle Zone",
+        game: "Sonic Blast",
+        cover: "assets/covers/sonic-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-blast/silvercastle.mp3",
+        composer: "Kojiro Mikusa"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 2 – 8-Bit Collection",
+        id: "bossblast",
+        title: "Boss",
+        game: "Sonic Blast",
+        cover: "assets/covers/sonic-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-blast/bosstheme.mp3",
+        composer: "Kojiro Mikusa"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 2 – 8-Bit Collection",
+        id: "specialstageblast",
+        title: "Special Stage",
+        game: "Sonic Blast",
+        cover: "assets/covers/sonic-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-blast/specialstage.mp3",
+        composer: "Kojiro Mikusa"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 2 – 8-Bit Collection",
+        id: "staffrollblast",
+        title: "Staff Roll",
+        game: "Sonic Blast",
+        cover: "assets/covers/sonic-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-blast/staffroll.mp3",
+        composer: "Kojiro Mikusa"
+    },
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        id: "greengrove1gen",
+        title: "Green Grove Zone Act 1",
+        game: "Sonic 3D Blast",
+        subgame: "Genesis",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/genesis/greengrove1.flac",
+        composer: "Jun Senoue"
+    },
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        id: "greengrove2gen",
+        title: "Green Grove Zone Act 2",
+        game: "Sonic 3D Blast",
+        subgame: "Genesis",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/genesis/greengrove2.flac",
+        composer: "Jun Senoue"
+    },
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        id: "rustyruin1gen",
+        title: "Rusty Ruin Zone Act 1",
+        game: "Sonic 3D Blast",
+        subgame: "Genesis",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/genesis/rustyruin1.flac",
+        composer: "Tatsuyuki Maeda"
+    },
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        id: "rustyruin2gen",
+        title: "Rusty Ruin Zone Act 2",
+        game: "Sonic 3D Blast",
+        subgame: "Genesis",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/genesis/rustyruin2.flac",
+        composer: "Tatsuyuki Maeda"
+    },
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        id: "springstadium1gen",
+        title: "Spring Stadium Zone Act 1",
+        game: "Sonic 3D Blast",
+        subgame: "Genesis",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/genesis/springstadium1.flac",
+        composer: "Jun Senoue"
+    },
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        id: "springstadium2gen",
+        title: "Spring Stadium Zone Act 2",
+        game: "Sonic 3D Blast",
+        subgame: "Genesis",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/genesis/springstadium2.flac",
+        composer: "Jun Senoue"
+    },
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        id: "diamonddust1gen",
+        title: "Diamond Dust Zone Act 1",
+        game: "Sonic 3D Blast",
+        subgame: "Genesis",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/genesis/diamonddust1.flac",
+        composer: "Tatsuyuki Maeda"
+    },
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        id: "diamonddust2gen",
+        title: "Diamond Dust Zone Act 2",
+        game: "Sonic 3D Blast",
+        subgame: "Genesis",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/genesis/diamonddust2.flac",
+        composer: "Tatsuyuki Maeda"
+    },
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        id: "volcanovalley1gen",
+        title: "Volcano Valley Zone Act 1",
+        game: "Sonic 3D Blast",
+        subgame: "Genesis",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/genesis/volcanovalley1.flac",
+        composer: "Tatsuyuki Maeda"
+    },
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        id: "volcanovalley2gen",
+        title: "Volcano Valley Zone Act 2",
+        game: "Sonic 3D Blast",
+        subgame: "Genesis",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/genesis/volcanovalley2.flac",
+        composer: "Tatsuyuki Maeda"
+    },
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "greengrove1saturn",
+        title: "Green Grove Zone Act 1",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/greengrove1.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "greengrove2saturn",
+        title: "Green Grove Zone Act 2",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/greengrove2.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "rustyruin1saturn",
+        title: "Rusty Ruin Zone Act 1",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/rustyruin1.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "rustyruin2saturn",
+        title: "Rusty Ruin Zone Act 2",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/rustyruin2.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "springstadium1saturn",
+        title: "Spring Stadium Zone Act 1",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/springstadium1.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "springstadium2saturn",
+        title: "Spring Stadium Zone Act 2",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/springstadium2.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "diamonddust1saturn",
+        title: "Diamond Dust Zone Act 1",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/diamonddust1.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "diamonddust2saturn",
+        title: "Diamond Dust Zone Act 2",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/diamonddust2.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "volcanovalley1saturn",
+        title: "Volcano Valley Zone Act 1",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/volcanovalley1.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "volcanovalley2saturn",
+        title: "Volcano Valley Zone Act 2",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/volcanovalley2.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "genegadget1saturn",
+        title: "Gene Gadget Zone Act 1",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/genegadget1.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "genegadget2saturn",
+        title: "Gene Gadget Zone Act 2",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/genegadget2.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "panicpuppet1saturn",
+        title: "Panic Puppet Zone Act 1",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/panicpuppet1.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "panicpuppet2saturn",
+        title: "Panic Puppet Zone Act 2",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/panicpuppet2.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "specialstagesaturn",
+        title: "Special Stage",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/specialstage.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "bosssaturn",
+        title: "Boss",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/boss.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "thefinalfightsaturn",
+        title: "The Final Fight",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/thefinalfight.flac"
+    },
+
+    {
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        game: "Sonic 3D Blast",
+        subgame: "Saturn",
+        id: "youremyherosaturn",
+        title: "You're My Hero",
+        cover: "assets/covers/sonic-3d-blast.webp",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/youremyhero.flac"
     }
 
 ];

@@ -5217,6 +5217,7 @@ body.oled-mode .credit {
   gap: 12px;
 
   margin-top: 6px;
+  margin-bottom: -12px;
 }
 
 .starlight-tile img {
@@ -5233,6 +5234,7 @@ body.oled-mode .credit {
   gap: 12px;
 
   margin-top: 45px;
+  margin-bottom: -45px;
 }
 
 .scrapbrain-teleporter img {
@@ -5298,11 +5300,80 @@ body.oled-mode .credit {
 
   margin-top: 45px;
   margin-right: 35px;
+  margin-bottom: -45px;
 }
 
 .emeraldhilltop-tileset img {
 
   width: 384px;
   height: relative;
+  image-rendering: pixelated;
+}
+
+.mysticcave-pit {
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+.mysticcave-pit img {
+
+  width: 296px;
+  height: 320px;
+  image-rendering: pixelated;
+}
+
+.hiddenpalace-organ {
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  margin-top: -2px;
+  margin-bottom: -16px;
+}
+
+.hiddenpalace-organ img {
+
+  width: 256px;
+  height: fit-content;
+  image-rendering: pixelated;
+}
+
+.eggman-fortress {
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  margin-top: 12px;
+  margin-bottom: -16px;
+}
+
+.eggman-fortress img {
+
+  width: 640px;
+  height: fit-content;
+  image-rendering: pixelated;
+}
+
+.halfpipe-sonic {
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  margin-top: 4px;
+  margin-bottom: -16px;
+}
+
+.halfpipe-sonic img {
+
+  width: 192px;
+  height: 168px;
   image-rendering: pixelated;
 }

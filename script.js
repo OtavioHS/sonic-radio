@@ -319,23 +319,117 @@ const triviaMap = {
     an inescapable pit of spikes!
     <br>
     <br>
-    At least it was the case in the
+    At least, that was the case in the
     <br>
     original 1992 version of the game.
     <br>
     <br>
-    since then, in the 2013 version,
+    Since then, in the 2013 version,
     <br>
-    the pit has been replaced with an
+    the pit has been replaced with a
     <br>
     secret entrance to the mysterious
     <br>
     Hidden Palace Zone!
 
-    <div class="emeraldhilltop-tileset">
-      <img src="assets/background/emeraldhilltop-tileset.gif">
+    <div class="mysticcave-pit">
+      <img src="assets/background/mysticcave-pit.png">
     </div>
   `,
+  "Sonic the Hedgehog 2|Hidden Palace Zone": `
+    While this Zone is exclusive to
+    <br>
+    the 2013 / Origins re-release of
+    <br>
+    Sonic 1, the music used here comes
+    <br>
+    from the 2P version of Mystic Cave!
+    <br>
+    <br>
+    Which was also the theme that played
+    <br>
+    in this Zone in the Simon Wai Prototype!
+
+    <div class="hiddenpalace-organ">
+      <img src="assets/background/hiddenpalace-organ.png">
+    </div>
+  `,
+  "Sonic the Hedgehog 2|Oil Ocean Zone": `
+    In the original version of Sonic 2
+    <br>
+    entering a specific cheat code in
+    <br>
+    the hidden Sound Test grants the player
+    <br>
+    whopping 14 continues!
+    <br>
+    <br>
+    However, it also causes this Zone's theme
+    <br>
+    to play throughout the entire game!
+  `,
+  "Sonic the Hedgehog 2|Metropolis Zone": `
+    This is the only Zone in the final
+    <br>
+    game to have three Acts instead of
+    <br>
+    the standard two!
+    <br>
+    <br>
+    This is because the original
+    <br>
+    Genocide City Zone was scrapped,
+    <br>
+    and its layout was reused for this
+    <br>
+    Zone's Act 3!
+  `,
+  "Sonic the Hedgehog 2|Wing Fortress Zone": `
+    This Zone featured the first use of
+    <br>
+    the name 'Eggman' in western Sonic
+    <br>
+    media, written on the side of the
+    <br>
+    flying fortress!
+    <br>
+    <br>
+    Until then, the character was known
+    <br>
+    as Robotnik until Sonic Adventure
+    <br>
+    merged both names.
+    <br>
+    <br>
+    Dr. Ivo Robotnik, also known as
+    <br>
+    Dr. Eggman.
+
+    <div class="eggman-fortress">
+      <img src="assets/background/eggman-fortress.png">
+    </div>
+  `,
+  "Sonic the Hedgehog 2|Special Stage": `
+    The player can actually achieve
+    <br>
+    Super Sonic very early on, in
+    <br>
+    Emerald Hill!
+    <br>
+    <br>
+    That is, if they find all the
+    <br>
+    checkpoints spread across the
+    <br>
+    level and don't lose their 50
+    <br>
+    rings or fail Special Stage!
+
+    <div class="halfpipe-sonic">
+      <img src="assets/background/halfpipe-sonic.gif">
+    </div>
+  `,
+
 
   //SONIC 3//
   "Sonic 3 & Knuckles|Angel Island Zone Act 1": `
