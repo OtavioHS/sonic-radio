@@ -191,7 +191,64 @@ function playTierSong(song) {
     audio.src =
         song.src;
 
+    const savedVolume =
+        localStorage.getItem(
+            "tierVolume"
+        );
+
+    audio.volume =
+        savedVolume !== null
+            ? parseFloat(savedVolume)
+            : 0.5;
+
     audio.play();
+
+}
+
+function initTierVolume() {
+
+    const audio =
+        document.getElementById(
+            "audioPlayer"
+        );
+
+    const slider =
+        document.getElementById(
+            "tierVolumeSlider"
+        );
+
+    if (!audio || !slider) return;
+
+    const savedVolume =
+        localStorage.getItem(
+            "tierVolume"
+        );
+
+    const volume =
+        savedVolume !== null
+            ? parseFloat(savedVolume)
+            : 0.5;
+
+    audio.volume =
+        volume;
+
+    slider.value =
+        volume;
+
+    slider.addEventListener(
+        "input",
+        () => {
+
+            audio.volume =
+                slider.value;
+
+            localStorage.setItem(
+                "tierVolume",
+                slider.value
+            );
+
+        }
+    );
 
 }
 
@@ -890,3 +947,4 @@ generatePlaylist();
 createColorPicker();
 initTierColorEditor();
 initPlaylistControls();
+initTierVolume();
