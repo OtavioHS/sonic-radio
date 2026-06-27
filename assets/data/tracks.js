@@ -2593,7 +2593,7 @@ const tierlistSongs = [
         disc: "CD 2 – 8-Bit Collection",
         id: "greatturquoise",
         title: "Great Turquoise Zone",
-        game: "Sonic Triple Trouble (1994)",
+        game: "Sonic Triple Trouble",
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/greatturquoise.mp3",
         composer: "Yayoi Wachi"
@@ -2604,7 +2604,7 @@ const tierlistSongs = [
         disc: "CD 2 – 8-Bit Collection",
         id: "sunsetpark",
         title: "Sunset Park Zone",
-        game: "Sonic Triple Trouble (1994)",
+        game: "Sonic Triple Trouble",
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/sunsetpark.mp3",
         composer: "Yayoi Wachi"
@@ -2615,7 +2615,7 @@ const tierlistSongs = [
         disc: "CD 2 – 8-Bit Collection",
         id: "metajunglira",
         title: "Meta Junglira Zone",
-        game: "Sonic Triple Trouble (1994)",
+        game: "Sonic Triple Trouble",
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/metajunglira.mp3",
         composer: "Yayoi Wachi"
@@ -2626,7 +2626,7 @@ const tierlistSongs = [
         disc: "CD 2 – 8-Bit Collection",
         id: "robotnikwinter",
         title: "Robotnik Winter Zone",
-        game: "Sonic Triple Trouble (1994)",
+        game: "Sonic Triple Trouble",
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/robotnikwinter.mp3",
         composer: "Yayoi Wachi"
@@ -2637,7 +2637,7 @@ const tierlistSongs = [
         disc: "CD 2 – 8-Bit Collection",
         id: "tidalplant",
         title: "Tidal Plant Zone",
-        game: "Sonic Triple Trouble (1994)",
+        game: "Sonic Triple Trouble",
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/tidalplant.mp3",
         composer: "Yayoi Wachi"
@@ -2648,7 +2648,7 @@ const tierlistSongs = [
         disc: "CD 2 – 8-Bit Collection",
         id: "atomicdestroyer",
         title: "Atomic Destroyer Zone",
-        game: "Sonic Triple Trouble (1994)",
+        game: "Sonic Triple Trouble",
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/atomicdestroyer.mp3",
         composer: "Yayoi Wachi"
@@ -2659,7 +2659,7 @@ const tierlistSongs = [
         disc: "CD 2 – 8-Bit Collection",
         id: "specialstage2d",
         title: "2D Special Stage",
-        game: "Sonic Triple Trouble (1994)",
+        game: "Sonic Triple Trouble",
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/2dspecialstage.mp3",
         composer: "Yayoi Wachi"
@@ -2670,7 +2670,7 @@ const tierlistSongs = [
         disc: "CD 2 – 8-Bit Collection",
         id: "specialstage3d",
         title: "3D Special Stage",
-        game: "Sonic Triple Trouble (1994)",
+        game: "Sonic Triple Trouble",
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/3dspecialstage.mp3",
         composer: "Yayoi Wachi"
@@ -2681,7 +2681,7 @@ const tierlistSongs = [
         disc: "CD 2 – 8-Bit Collection",
         id: "bosstripletrouble",
         title: "Boss",
-        game: "Sonic Triple Trouble (1994)",
+        game: "Sonic Triple Trouble",
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/boss.mp3",
         composer: "Yayoi Wachi"
@@ -2692,7 +2692,7 @@ const tierlistSongs = [
         disc: "CD 2 – 8-Bit Collection",
         id: "sunsetparkboss",
         title: "Sunset Park Boss",
-        game: "Sonic Triple Trouble (1994)",
+        game: "Sonic Triple Trouble",
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/sunsetparkboss.mp3",
         composer: "Yayoi Wachi"
@@ -2703,7 +2703,7 @@ const tierlistSongs = [
         disc: "CD 2 – 8-Bit Collection",
         id: "nacktheweasel",
         title: "Nack the Weasel",
-        game: "Sonic Triple Trouble (1994)",
+        game: "Sonic Triple Trouble",
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/nacktheweasel.mp3",
         composer: "Yayoi Wachi"
@@ -2714,7 +2714,7 @@ const tierlistSongs = [
         disc: "CD 2 – 8-Bit Collection",
         id: "drrobotniktripletrouble",
         title: "Dr. Robotnik",
-        game: "Sonic Triple Trouble (1994)",
+        game: "Sonic Triple Trouble",
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/drrobotnik.mp3",
         composer: "Yayoi Wachi"
@@ -2725,7 +2725,7 @@ const tierlistSongs = [
         disc: "CD 2 – 8-Bit Collection",
         id: "endingtripletrouble",
         title: "Ending",
-        game: "Sonic Triple Trouble (1994)",
+        game: "Sonic Triple Trouble",
         cover: "assets/covers/sonic-triple-trouble.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-triple-trouble/ending.mp3",
         composer: "Yayoi Wachi"
@@ -3156,6 +3156,544 @@ const tierlistSongs = [
         title: "You're My Hero",
         cover: "assets/covers/sonic-3d-blast.webp",
         src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-3d-blast/saturn/youremyhero.flac"
-    }
+    },
+    // Sonic the Fighters
+    {
+        id: "stf-advertise",
+        title: "ADVERTISE",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/advertise.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-characterselect",
+        title: "CHARACTER SELECT",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/characterselect.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow, Takenobu Mitsuyoshi",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-southisland",
+        title: "SOUTH ISLAND",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/southisland.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-flyingcarpet",
+        title: "FLYING CARPET",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/flyingcarpet.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-auroraicefield",
+        title: "AURORA ICEFIELD",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/auroraicefield.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow, Takenobu Mitsuyoshi",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-mushroomhill",
+        title: "MUSHROOM HILL",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/mushroomhill.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-canyoncruise",
+        title: "CANYON CRUISE",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/canyoncruise.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow, Takenobu Mitsuyoshi",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-casinonight",
+        title: "CASINO NIGHT",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/casinonight.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-dynamiteplant",
+        title: "DYNAMITE PLANT",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/dynamiteplant.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-giantwing",
+        title: "GIANT WING",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/giantwing.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-deatheggseye",
+        title: "DEATH EGG'S EYE",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/deatheggseye.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-deatheggshangar",
+        title: "DEATH EGG'S HANGAR",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/deatheggshanger.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-supersonic",
+        title: "SUPER SONIC",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/supersonic.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-sonicvknuckles",
+        title: "SONIC vs KNUCKLES",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/sonicvknuckles.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-nameentry",
+        title: "NAME ENTRY",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/nameentry.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-endingtheme",
+        title: "ENDING THEME",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/endingtheme.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-sunsettown",
+        title: "SUNSET TOWN (Unused)",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/sunsettown.mp3",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Maki Morrow, Takenobu Mitsuyoshi",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-areyoubrave",
+        title: "Are You Brave?",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/areyoubrave.flac",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+
+    {
+        id: "stf-fairyofaif",
+        title: "Fairy of A.I.F.",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-the-fighters/fairyofaif.flac",
+        game: "Sonic the Fighters",
+        cover: "assets/covers/sonic-the-fighters.webp",
+        composer: "Naofumi Hataya, Takenobu Mitsuyoshi",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza"
+    },
+    // SONIC JAM
+    {
+        id: "sonicjam-sonicworld",
+        title: "Sonic World",
+        game: "Sonic Jam",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-jam/sonicworld.mp3",
+        cover: "assets/covers/sonic-jam.webp"
+    },
+
+    {
+        id: "sonicjam-gallery",
+        title: "Gallery",
+        game: "Sonic Jam",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-jam/gallery.mp3",
+        cover: "assets/covers/sonic-jam.webp"
+    },
+
+    {
+        id: "sonicjam-digitalmanual",
+        title: "Digital Manual",
+        game: "Sonic Jam",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-jam/digitalmanual.mp3",
+        cover: "assets/covers/sonic-jam.webp"
+    },
+
+    {
+        id: "sonicjam-timeattack",
+        title: "Time Attack",
+        game: "Sonic Jam",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-jam/timeattack.mp3",
+        cover: "assets/covers/sonic-jam.webp"
+    },
+
+    {
+        id: "sonicjam-staffroll",
+        title: "Staff Roll",
+        game: "Sonic Jam",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-jam/staffroll.mp3",
+        cover: "assets/covers/sonic-jam.webp"
+    },
+    // SONIC R
+    {
+        id: "sonicr-canyoufeelthesunshine",
+        title: "Can You Feel the Sunshine?",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/canyoufeelthesunshine1.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-livinginthecity",
+        title: "Living in the City",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/livinginthecity1.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-backintime",
+        title: "Back in Time",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/backintime1.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-workitout",
+        title: "Work It Out",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/workitout1.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-diamondinthesky",
+        title: "Diamond in the Sky",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/diamondinthesky1.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-supersonicracing",
+        title: "Super Sonic Racing",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/supersonicracing1.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-canyoufeelthesunshine-inst",
+        title: "Can You Feel the Sunshine? (Inst.)",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/canyoufeelthesunshine2.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-livinginthecity-inst",
+        title: "Living in the City (Inst.)",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/livinginthecity2.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-backintime-inst",
+        title: "Back in Time (Inst.)",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/backintime2.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-workitout-inst",
+        title: "Work It Out (Inst.)",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/workitout2.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-diamondinthesky-inst",
+        title: "Diamond in the Sky (Inst.)",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/diamondinthesky2.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-supersonicracing-inst",
+        title: "Super Sonic Racing (Inst.)",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/supersonicracing2.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-youremynumberone",
+        title: "You're My Number One",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/numberone.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-workitout-redraw",
+        title: "Work It Out (Red Raw Mix)",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/workitoutredraw.mp3",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-supersonicracing-xtra",
+        title: "Super Sonic Racing (X-TRA Club Mix)",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/supersonicracingxtra.mp3",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-canyoufeelthesunshine-acid",
+        title: "Can You Feel the Sunshine? ACID Mix",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/canyoufeelthesunshineacid.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-livinginthecity-ltn",
+        title: "Living in the City (LTN Mix)",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/livinginthecityltn.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+
+    {
+        id: "sonicr-canyoufeelthesunshine-reimagined",
+        title: "Can You Feel the Sunshine? Re-Imagined",
+        game: "Sonic R",
+        collection: "Classic Era",
+        disc: "CD 3 – 3D Bonanza",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-r/canyoufeelthesunshinere.flac",
+        cover: "assets/covers/sonic-r.webp"
+    },
+    // SONIC SPINBALL
+    {
+        id: "spinball-toxiccaves",
+        title: "Toxic Caves",
+        game: "Sonic Spinball",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-spinball/toxiccaves.flac",
+        cover: "assets/covers/sonic-spinball.webp"
+    },
+
+    {
+        id: "spinball-lavapowerhouse",
+        title: "Lava Powerhouse",
+        game: "Sonic Spinball",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-spinball/lavapowerhouse.flac",
+        cover: "assets/covers/sonic-spinball.webp"
+    },
+
+    {
+        id: "spinball-themachine",
+        title: "The Machine",
+        game: "Sonic Spinball",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-spinball/themachine.flac",
+        cover: "assets/covers/sonic-spinball.webp"
+    },
+
+    {
+        id: "spinball-showdown",
+        title: "Showdown",
+        game: "Sonic Spinball",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-spinball/showdown.flac",
+        cover: "assets/covers/sonic-spinball.webp"
+    },
+
+    {
+        id: "spinball-bonusstage",
+        title: "Bonus Stage",
+        game: "Sonic Spinball",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-spinball/bonusstage.flac",
+        cover: "assets/covers/sonic-spinball.webp"
+    },
+
+    {
+        id: "spinball-boss",
+        title: "Boss",
+        game: "Sonic Spinball",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-spinball/boss.flac",
+        cover: "assets/covers/sonic-spinball.webp"
+    },
+
+    {
+        id: "spinball-theme",
+        title: "Spinball Theme",
+        game: "Sonic Spinball",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-spinball/spinballtheme.flac",
+        cover: "assets/covers/sonic-spinball.webp"
+    },
+
+    {
+        id: "spinball-flighttovolcanicfortress",
+        title: "Flight To Volcanic Fortress",
+        game: "Sonic Spinball",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-spinball/flighttovolcanicisland.flac",
+        cover: "assets/covers/sonic-spinball.webp"
+    },
+
+    {
+        id: "spinball-toxiccaves-arranged",
+        title: "Toxic Caves (Arranged)",
+        game: "Sonic Spinball",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-spinball/toxiccavearranged.flac",
+        cover: "assets/covers/sonic-spinball.webp"
+    },
+
+    {
+        id: "spinball-lavapowerhouse-arranged",
+        title: "Lava Powerhouse (Arranged)",
+        game: "Sonic Spinball",
+        collection: "Classic Era",
+        disc: "CD 4 – Miscellaneous",
+        src: "https://pub-2b60b9657131401f97883d8e4b5c06c6.r2.dev/music/sonic-spinball/lavapowerhousearranged.flac",
+        cover: "assets/covers/sonic-spinball.webp"
+    },
 
 ];
