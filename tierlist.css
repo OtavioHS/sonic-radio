@@ -885,7 +885,7 @@ body.dark-mode::before {
 .tier-song {
 
   position: relative;
-
+  will-change: transform;
   width: 90px;
   height: 90px;
 

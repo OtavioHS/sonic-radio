@@ -597,8 +597,316 @@ const lyricsMap = {
     },
   ],
   "Sonic CD (JP)|Cosmic Eternity - Believe in Yourself": [
+    {
+      time: 48,
+      text: "Waah! Teleportation, yeah!"
+    },
+    {
+      time: 50,
+      text: "Waah! Za-ba-doo-bap-bap!"
+    },
+    {
+      time: 54.8,
+      text: "Waah! Teleportation, yeah!"
+    },
+    {
+      time: 57,
+      text: "Waah! Shibby-doo-boo, yeah!"
+    },
+    {
+      time: 65,
+      text: "In the end, who's on your side?"
+    },
+    {
+      time: 66.3,
+      text: "Who can you trust"
+    },
+    {
+      time: 67,
+      text: "in the middle of the night?"
+    },
+    {
+      time: 68,
+      text: "Where will you be"
+    },
+    {
+      time: 69,
+      text: "if they can't find you?"
+    },
+    {
+      time: 70,
+      text: "There's no place to go, nothing to do"
+    },
+    {
+      time: 72,
+      text: "If you gotta do something"
+    },
+    {
+      time: 72.8,
+      text: "if you gotta do something"
+    },
+    {
+      time: 74,
+      text: "Believe in yourself, yourself, yourself!"
+    },
+    {
+      time: 77,
+      text: "Hey!"
+    },
+    {
+      time: 79.8,
+      text: "Extraordinary things can happen"
+    },
+    {
+      time: 82.5,
+      text: "If you believe in yourself"
+    },
+    {
+      time: 86.8,
+      text: "You've got to have some faith in yourself"
+    },
+    {
+      time: 89.8,
+      text: "If you want respect from your friends"
+    },
+    {
+      time: 93.5,
+      text: "Don't rearrange; no need to change"
+    },
+    {
+      time: 95,
+      text: "Stay like you are; keep it all the same"
+    },
+    {
+      time: 96.8,
+      text: "But as you move along in your life"
+    },
+    {
+      time: 98.9,
+      text: "Keep an open mind, and don't forget"
+    },
+    {
+      time: 100,
+      text: "That if you gotta do something"
+    },
+    {
+      time: 101.8,
+      text: "if gotta do something"
+    },
+    {
+      time: 103,
+      text: "Believe in yourself, yourself, yourself!"
+    },
+    {
+      time: 106,
+      text: "Hey!"
+    },
+    {
+      time: 108,
+      text: "Extraordinary things can happen"
+    },
+    {
+      time: 110.9,
+      text: "If you believe in yourself"
+    },
+    {
+      time: 115,
+      text: "You've got to have some faith in yourself"
+    },
+    {
+      time: 118,
+      text: "If you want respect from your friends"
+    },
+    {
+      time: 122,
+      text: "When you feel tight"
+    },
+    {
+      time: 123.8,
+      text: "Look at yourself!"
+    },
+    {
+      time: 125,
+      text: "Inside your heart, you will find"
+    },
+    {
+      time: 126,
+      text: "A special place to unwind"
+    },
+    {
+      time: 129,
+      text: "When you feel fright"
+    },
+    {
+      time: 131,
+      text: "Look at yourself!"
+    },
+    {
+      time: 132,
+      text: "Inside your mind, you will see"
+    },
+    {
+      time: 133.9,
+      text: "Cosmic eternity"
+    },
+    {
+      time: 162,
+      text: "When you feel tight"
+    },
+    {
+      time: 163.5,
+      text: "Look at yourself!"
+    },
+    {
+      time: 165,
+      text: "Inside your heart, you will find"
+    },
+    {
+      time: 166,
+      text: "A special place to unwind"
+    },
+    {
+      time: 169,
+      text: "When you feel fright"
+    },
+    {
+      time: 170.5,
+      text: "Look at yourself!"
+    },
+    {
+      time: 171.8,
+      text: "Inside your mind, you will see"
+    },
+    {
+      time: 173,
+      text: "Cosmic eternity"
+    },
   ],
   "Sonic CD (US)|Sonic Boom (Intro)": [
+    {
+      time: 13.8,
+      text: "If you're strong"
+    },
+    {
+      time: 15,
+      text: "You can fly"
+    },
+    {
+      time: 16.5,
+      text: "You can reach the other side"
+    },
+    {
+      time: 19,
+      text: "Of the rainbow"
+    },
+    {
+      time: 23.9,
+      text: "It's all right"
+    },
+    {
+      time: 25,
+      text: "Take a chance"
+    },
+    {
+      time: 26.5,
+      text: "Cause there is no circumstance"
+    },
+    {
+      time: 28.9,
+      text: "That you can't handle"
+    },
+    {
+      time: 32,
+      text: "When you use your mind"
+    },
+    {
+      time: 34,
+      text: "Sonic Boom (3x)"
+    },
+    {
+      time: 37.2,
+      text: "(Trouble keeps you running faster)"
+    },
+    {
+      time: 39,
+      text: "Sonic Boom (3x)"
+    },
+    {
+      time: 42.1,
+      text: "(Save the planet from disaster)"
+    },
+    {
+      time: 54.8,
+      text: "Through the dark"
+    },
+    {
+      time: 56,
+      text: "To the light"
+    },
+    {
+      time: 57.5,
+      text: "It's a supersonic flight"
+    },
+    {
+      time: 59.6,
+      text: "Gotta keep it goin'"
+    },
+    {
+      time: 65,
+      text: "Sonic Boom (3x)"
+    },
+    {
+      time: 68.3,
+      text: "(Trouble keeps you running faster)"
+    },
+    {
+      time: 70.5,
+      text: "Sonic Boom (3x)"
+    },
+    {
+      time: 73.2,
+      text: "(Save the planet from disaster)"
+    },
+    {
+      time: 75,
+      text: "Sonic Boom (3x)"
+    },
+    {
+      time: 78,
+      text: "(Spinning through a world in motion)"
+    },
+    {
+      time: 80,
+      text: "Sonic Boom (3x)"
+    },
+    {
+      time: 158,
+      text: "Sonic Boom (3x)"
+    },
+    {
+      time: 161.2,
+      text: "(Trouble keeps you running faster)"
+    },
+    {
+      time: 163.8,
+      text: "Sonic Boom (3x)"
+    },
+    {
+      time: 166.2,
+      text: "(Save the planet from disaster)"
+    },
+    {
+      time: 168,
+      text: "Sonic Boom (3x)"
+    },
+    {
+      time: 171.2,
+      text: "(Spinning through a world in motion)"
+    },
+    {
+      time: 173,
+      text: "Sonic Boom (3x)"
+    },
   ],
   "Sonic CD (US)|Sonic Boom (Ending)": [
   ],

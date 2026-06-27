@@ -268,6 +268,15 @@ function createSongCard(song) {
     card.style.backgroundImage =
         `url(${song.cover})`;
 
+    card.dataset.cover =
+        song.cover;
+
+    const preload =
+        new Image();
+
+    preload.src =
+        song.cover;
+
     card.innerHTML = `
 
         <div class="tier-song-info">
@@ -979,7 +988,7 @@ function initTierScreenshot() {
 
     const tierList =
         document.querySelector(
-            ".tier-list-container"
+            ".tierlist-container"
         );
 
     const playlistSidebar =
@@ -1054,15 +1063,35 @@ function initTierScreenshot() {
             );
 
             await new Promise(resolve =>
-                setTimeout(resolve, 100)
+                setTimeout(resolve, 350)
             );
+
+            const tierSongs =
+                document.querySelectorAll(
+                    ".tier-song"
+                );
+
+            tierSongs.forEach(card => {
+
+                const cover =
+                    card.dataset.cover;
+
+                if (!cover) return;
+
+                card.style.backgroundImage =
+                    `url(${cover})`;
+
+            });
 
             const canvas =
                 await html2canvas(
                     tierList,
                     {
                         backgroundColor: null,
-                        scale: 2
+                        scale: 2,
+                        useCORS: true,
+                        allowTaint: true,
+                        logging: false
                     }
                 );
 
