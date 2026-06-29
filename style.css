@@ -5377,3 +5377,20 @@ body.oled-mode .credit {
   height: 168px;
   image-rendering: pixelated;
 }
+
+.eggman-laughing {
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
+.eggman-laughing img {
+
+  width: 64px;
+  height: 48px;
+  image-rendering: pixelated;
+}

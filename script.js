@@ -33,9 +33,15 @@ document
   .appendChild(screenshotLayer);
 
 const screenshotMap = {
-  "Angel Island Zone Act 1": {
+  //Sonic 3 & Knuckles//
+  "Sonic 3 & Knuckles|Angel Island Zone Act 1": {
     folder: "sonic3/angelisland1",
     prefix: "angelisland",
+    total: 4
+  },
+  "Sonic 3 & Knuckles|Hydrocity Zone Act 1": {
+    folder: "sonic3/hydrocity1",
+    prefix: "hydrocity",
     total: 4
   }
 };
@@ -429,12 +435,67 @@ const triviaMap = {
       <img src="assets/background/halfpipe-sonic.gif">
     </div>
   `,
+  "Sonic the Hedgehog 2|Death Egg Zone": `
+    During the fight against
+    <br>
+    Mecha Sonic, Eggman is visible
+    <br>
+    through a window, observing the
+    <br>
+    battle.
+    <br>
+    <br>
+    He was supposed to have a
+    <br>
+    laughing animation whenever
+    <br>
+    Sonic got hit!
+    <br>
+    <br>
+    However, because this Zone
+    <br>
+    contains no rings at all,
+    <br>
+    the animation never plays!
+
+    <div class="eggman-laughing">
+      <img src="assets/background/eggman-laughing.gif">
+    </div>
+  `,
 
 
   //SONIC 3//
   "Sonic 3 & Knuckles|Angel Island Zone Act 1": `
-    Angel Island was the first stage
-    where Knuckles appeared.
+    In the original version of
+    <br>
+    Sonic 3, there is a glitch in
+    <br>
+    this Act that causes the
+    <br>
+    music to switch to the Act 2
+    <br>
+    version after completing a
+    <br>
+    Special Stage or Bonus Stage.
+    <br>
+    <br>
+    However, it only occurs when
+    <br>
+    the Zone is set ablaze.
+    <br>
+    <br>
+    This was later partially fixed in
+    <br>
+    Sonic 3 & Knuckles, where the
+    <br>
+    glitch would only occur after
+    <br>
+    completing a Special Stage.
+    <br>
+    <br>
+    It was finally, fully fixed in
+    <br>
+    Sonic Origins!
   `,
 
   "Escape from the City": `
@@ -1286,7 +1347,7 @@ let dragPercent = 0;
 // requestAnimationFrame
 let rafId = null;
 
-function startScreenshots(title) {
+function startScreenshots(game, title) {
 
   clearInterval(screenshotInterval);
   clearTimeout(screenshotTimeout);
@@ -1296,7 +1357,11 @@ function startScreenshots(title) {
     "visible"
   );
 
-  const data = screenshotMap[title];
+  const key =
+    `${game}|${title}`;
+
+  const data =
+    screenshotMap[key];
 
   if (!data) {
     return;
@@ -1315,43 +1380,29 @@ function startScreenshots(title) {
   screenshotIndex = 0;
 
   // espera 15s antes da primeira screenshot
-  screenshotTimeout = screenshotFadeTimeout = setTimeout(() => {
+  screenshotTimeout = setTimeout(() => {
 
-    // primeira screenshot
-    screenshotLayer.src =
-      shots[screenshotIndex];
+    let showingScreenshot = false;
 
-    requestAnimationFrame(() => {
-      screenshotLayer.classList.add(
-        "visible"
-      );
-    });
-
-    screenshotIndex++;
-
-    // slideshow
     screenshotInterval = setInterval(() => {
 
-      // fade out
-      screenshotLayer.classList.remove(
-        "visible"
-      );
+      if (!showingScreenshot) {
 
-      screenshotFadeTimeout = setTimeout(() => {
-
-        if (
-          screenshotIndex >=
-          shots.length
-        ) {
-          screenshotIndex = 0;
-        }
-
+        // Mostrar screenshot
         screenshotLayer.src =
           shots[screenshotIndex];
 
         screenshotIndex++;
 
-        // fade in
+        if (
+          screenshotIndex >=
+          shots.length
+        ) {
+
+          screenshotIndex = 0;
+
+        }
+
         requestAnimationFrame(() => {
 
           screenshotLayer.classList.add(
@@ -1360,11 +1411,47 @@ function startScreenshots(title) {
 
         });
 
-      }, 1200);
+      } else {
+
+        // Voltar para a cover
+        screenshotLayer.classList.remove(
+          "visible"
+        );
+
+      }
+
+      showingScreenshot =
+        !showingScreenshot;
 
     }, 15000);
 
+    // Primeira screenshot após os primeiros 15 segundos
+    screenshotLayer.src =
+      shots[screenshotIndex];
+
+    screenshotIndex++;
+
+    if (
+      screenshotIndex >=
+      shots.length
+    ) {
+
+      screenshotIndex = 0;
+
+    }
+
+    requestAnimationFrame(() => {
+
+      screenshotLayer.classList.add(
+        "visible"
+      );
+
+    });
+
+    showingScreenshot = true;
+
   }, 15000);
+
 }
 
 function fitComposerText() {
@@ -1448,6 +1535,7 @@ function loadTrack(index) {
       );
 
       startScreenshots(
+        selected.dataset.game,
         selected.dataset.title
       );
 
